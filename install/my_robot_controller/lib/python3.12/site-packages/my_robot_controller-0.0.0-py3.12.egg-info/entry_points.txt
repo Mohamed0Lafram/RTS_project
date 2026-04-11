@@ -1,0 +1,4 @@
+[console_scripts]
+listener = my_robot_controller.listener_node:main
+talker = my_robot_controller.talker_node:main
+unauthorised_listener = my_robot_controller.unauthorised_listener:main
