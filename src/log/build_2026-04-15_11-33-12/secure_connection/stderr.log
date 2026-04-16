@@ -1,0 +1,5 @@
+  File "/home/mohamed/ros2_ws/src/install/secure_connection/lib/python3.12/site-packages/secure_connection/generate_key.py", line 10
+    topics =
+            ^
+SyntaxError: invalid syntax
+

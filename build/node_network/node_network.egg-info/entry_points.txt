@@ -1,0 +1,5 @@
+[console_scripts]
+Alpha = node_network.alpha:main
+Beta = node_network.beta:main
+Delta = node_network.delta:main
+Gamma = node_network.gamma:main

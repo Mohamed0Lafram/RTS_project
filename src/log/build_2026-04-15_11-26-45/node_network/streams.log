@@ -1,0 +1,52 @@
+[4.650s] Invoking command in '/home/mohamed/ros2_ws/src/node_network': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/src/build/node_network/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/node_network build --build-base /home/mohamed/ros2_ws/src/build/node_network/build install --record /home/mohamed/ros2_ws/src/build/node_network/install.log --single-version-externally-managed install_data
+[5.683s] running egg_info
+[5.684s] creating ../build/node_network/node_network.egg-info
+[5.767s] writing ../build/node_network/node_network.egg-info/PKG-INFO
+[5.767s] writing dependency_links to ../build/node_network/node_network.egg-info/dependency_links.txt
+[5.768s] writing entry points to ../build/node_network/node_network.egg-info/entry_points.txt
+[5.768s] writing requirements to ../build/node_network/node_network.egg-info/requires.txt
+[5.769s] writing top-level names to ../build/node_network/node_network.egg-info/top_level.txt
+[5.769s] writing manifest file '../build/node_network/node_network.egg-info/SOURCES.txt'
+[5.912s] reading manifest file '../build/node_network/node_network.egg-info/SOURCES.txt'
+[5.918s] writing manifest file '../build/node_network/node_network.egg-info/SOURCES.txt'
+[5.918s] running build
+[5.919s] running build_py
+[5.923s] creating /home/mohamed/ros2_ws/src/build/node_network/build
+[5.923s] creating /home/mohamed/ros2_ws/src/build/node_network/build/lib
+[5.924s] creating /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network
+[5.924s] copying node_network/base_node.py -> /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network
+[5.924s] copying node_network/gamma.py -> /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network
+[5.925s] copying node_network/beta.py -> /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network
+[5.929s] copying node_network/alpha.py -> /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network
+[5.930s] copying node_network/delta.py -> /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network
+[5.930s] copying node_network/__init__.py -> /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network
+[5.931s] running install
+[5.954s] running install_lib
+[6.047s] creating /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network
+[6.048s] copying /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network/base_node.py -> /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network
+[6.049s] copying /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network/gamma.py -> /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network
+[6.049s] copying /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network/beta.py -> /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network
+[6.050s] copying /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network/alpha.py -> /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network
+[6.057s] copying /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network/delta.py -> /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network
+[6.058s] copying /home/mohamed/ros2_ws/src/build/node_network/build/lib/node_network/__init__.py -> /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network
+[6.061s] byte-compiling /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network/base_node.py to base_node.cpython-312.pyc
+[6.068s] byte-compiling /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network/gamma.py to gamma.cpython-312.pyc
+[6.068s] byte-compiling /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network/beta.py to beta.cpython-312.pyc
+[6.069s] byte-compiling /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network/alpha.py to alpha.cpython-312.pyc
+[6.069s] byte-compiling /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network/delta.py to delta.cpython-312.pyc
+[6.069s] byte-compiling /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network/__init__.py to __init__.cpython-312.pyc
+[6.073s] running install_data
+[6.074s] creating /home/mohamed/ros2_ws/src/install/node_network/share/ament_index
+[6.074s] creating /home/mohamed/ros2_ws/src/install/node_network/share/ament_index/resource_index
+[6.074s] creating /home/mohamed/ros2_ws/src/install/node_network/share/ament_index/resource_index/packages
+[6.075s] copying resource/node_network -> /home/mohamed/ros2_ws/src/install/node_network/share/ament_index/resource_index/packages
+[6.075s] copying package.xml -> /home/mohamed/ros2_ws/src/install/node_network/share/node_network
+[6.075s] running install_egg_info
+[6.236s] Copying ../build/node_network/node_network.egg-info to /home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages/node_network-0.0.0-py3.12.egg-info
+[6.241s] running install_scripts
+[6.911s] Installing Alpha script to /home/mohamed/ros2_ws/src/install/node_network/lib/node_network
+[6.912s] Installing Beta script to /home/mohamed/ros2_ws/src/install/node_network/lib/node_network
+[6.912s] Installing Delta script to /home/mohamed/ros2_ws/src/install/node_network/lib/node_network
+[6.912s] Installing Gamma script to /home/mohamed/ros2_ws/src/install/node_network/lib/node_network
+[6.913s] writing list of installed files to '/home/mohamed/ros2_ws/src/build/node_network/install.log'
+[7.050s] Invoked command in '/home/mohamed/ros2_ws/src/node_network' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/src/build/node_network/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/src/install/node_network/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/node_network build --build-base /home/mohamed/ros2_ws/src/build/node_network/build install --record /home/mohamed/ros2_ws/src/build/node_network/install.log --single-version-externally-managed install_data

@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000176] (-) JobUnselected: {'identifier': 'secure_connection'}
+[0.000206] (node_network) JobQueued: {'identifier': 'node_network', 'dependencies': OrderedDict()}
+[0.000231] (node_network) JobStarted: {'identifier': 'node_network'}
+[0.099173] (-) TimerEvent: {}
+[0.199461] (-) TimerEvent: {}
+[0.299750] (-) TimerEvent: {}
+[0.400048] (-) TimerEvent: {}
+[0.500381] (-) TimerEvent: {}
+[0.600682] (-) TimerEvent: {}
+[0.700961] (-) TimerEvent: {}
+[0.801243] (-) TimerEvent: {}
+[0.901523] (-) TimerEvent: {}
+[1.001798] (-) TimerEvent: {}
+[1.102084] (-) TimerEvent: {}
+[1.202354] (-) TimerEvent: {}
+[1.302703] (-) TimerEvent: {}
+[1.403022] (-) TimerEvent: {}
+[1.503286] (-) TimerEvent: {}
+[1.603572] (-) TimerEvent: {}
+[1.622949] (node_network) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/node_network', 'build', '--build-base', '/home/mohamed/ros2_ws/build/node_network/build', 'install', '--record', '/home/mohamed/ros2_ws/build/node_network/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamed/ros2_ws/src/node_network', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'GIT_EDITOR': ':', 'SSH_AGENT_PID': '1819', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '(env) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1666', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2073', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:21543', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-plasmashell.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2021,unix/mf00pd:/tmp/.ICE-unix/2021', 'INVOCATION_ID': 'eb70aa84126b473a818ee9a0058a887a', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_MFZydl', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_KrmKFS', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-SJHMW1iBZ9H6/agent.1719', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/node_network', 'GIT_MERGE_AUTOEDIT': 'no', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/node_network/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.703727] (-) TimerEvent: {}
+[1.804003] (-) TimerEvent: {}
+[1.904265] (-) TimerEvent: {}
+[2.004530] (-) TimerEvent: {}
+[2.104750] (-) TimerEvent: {}
+[2.205037] (-) TimerEvent: {}
+[2.207044] (node_network) StdoutLine: {'line': b'running egg_info\n'}
+[2.250502] (node_network) StdoutLine: {'line': b'writing ../../build/node_network/node_network.egg-info/PKG-INFO\n'}
+[2.250836] (node_network) StdoutLine: {'line': b'writing dependency_links to ../../build/node_network/node_network.egg-info/dependency_links.txt\n'}
+[2.251167] (node_network) StdoutLine: {'line': b'writing entry points to ../../build/node_network/node_network.egg-info/entry_points.txt\n'}
+[2.251583] (node_network) StdoutLine: {'line': b'writing requirements to ../../build/node_network/node_network.egg-info/requires.txt\n'}
+[2.251951] (node_network) StdoutLine: {'line': b'writing top-level names to ../../build/node_network/node_network.egg-info/top_level.txt\n'}
+[2.305134] (-) TimerEvent: {}
+[2.338266] (node_network) StdoutLine: {'line': b"reading manifest file '../../build/node_network/node_network.egg-info/SOURCES.txt'\n"}
+[2.340757] (node_network) StdoutLine: {'line': b"writing manifest file '../../build/node_network/node_network.egg-info/SOURCES.txt'\n"}
+[2.341148] (node_network) StdoutLine: {'line': b'running build\n'}
+[2.341404] (node_network) StdoutLine: {'line': b'running build_py\n'}
+[2.341731] (node_network) StdoutLine: {'line': b'copying node_network/base_node.py -> /home/mohamed/ros2_ws/build/node_network/build/lib/node_network\n'}
+[2.344212] (node_network) StdoutLine: {'line': b'running install\n'}
+[2.356434] (node_network) StdoutLine: {'line': b'running install_lib\n'}
+[2.401982] (node_network) StdoutLine: {'line': b'copying /home/mohamed/ros2_ws/build/node_network/build/lib/node_network/base_node.py -> /home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network\n'}
+[2.403183] (node_network) StdoutLine: {'line': b'byte-compiling /home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network/base_node.py to base_node.cpython-312.pyc\n'}
+[2.404555] (node_network) StdoutLine: {'line': b'running install_data\n'}
+[2.404868] (node_network) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.405198] (-) TimerEvent: {}
+[2.452130] (node_network) StdoutLine: {'line': b"removing '/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.452506] (node_network) StdoutLine: {'line': b'Copying ../../build/node_network/node_network.egg-info to /home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network-0.0.0-py3.12.egg-info\n'}
+[2.453893] (node_network) StdoutLine: {'line': b'running install_scripts\n'}
+[2.505297] (-) TimerEvent: {}
+[2.605585] (-) TimerEvent: {}
+[2.705863] (-) TimerEvent: {}
+[2.726207] (node_network) StdoutLine: {'line': b'Installing Alpha script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[2.727213] (node_network) StdoutLine: {'line': b'Installing Beta script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[2.728104] (node_network) StdoutLine: {'line': b'Installing Delta script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[2.728771] (node_network) StdoutLine: {'line': b'Installing Gamma script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[2.729438] (node_network) StdoutLine: {'line': b"writing list of installed files to '/home/mohamed/ros2_ws/build/node_network/install.log'\n"}
+[2.793232] (node_network) CommandEnded: {'returncode': 0}
+[2.806089] (-) TimerEvent: {}
+[2.809665] (node_network) JobEnded: {'identifier': 'node_network', 'rc': 0}
+[2.810978] (-) EventReactorShutdown: {}

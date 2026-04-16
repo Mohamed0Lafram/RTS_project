@@ -1,0 +1,48 @@
+[4.701s] Invoking command in '/home/mohamed/ros2_ws/src/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/src/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/mohamed/ros2_ws/src/build/my_robot_controller/build install --record /home/mohamed/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[5.740s] running egg_info
+[5.741s] creating ../build/my_robot_controller/my_robot_controller.egg-info
+[5.824s] writing ../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[5.824s] writing dependency_links to ../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[5.825s] writing entry points to ../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[5.825s] writing requirements to ../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[5.827s] writing top-level names to ../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[5.827s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.966s] reading manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.970s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.971s] running build
+[5.972s] running build_py
+[5.974s] creating /home/mohamed/ros2_ws/src/build/my_robot_controller/build
+[5.974s] creating /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib
+[5.977s] creating /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[5.977s] copying my_robot_controller/talker_node.py -> /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[5.978s] copying my_robot_controller/first_node.py -> /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[5.979s] copying my_robot_controller/unauthorised_listener.py -> /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[5.979s] copying my_robot_controller/listener_node.py -> /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[5.985s] copying my_robot_controller/__init__.py -> /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[5.986s] running install
+[6.007s] running install_lib
+[6.107s] creating /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[6.115s] copying /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/talker_node.py -> /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[6.116s] copying /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/first_node.py -> /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[6.117s] copying /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/unauthorised_listener.py -> /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[6.117s] copying /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/listener_node.py -> /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[6.118s] copying /home/mohamed/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[6.122s] byte-compiling /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/talker_node.py to talker_node.cpython-312.pyc
+[6.123s] byte-compiling /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/first_node.py to first_node.cpython-312.pyc
+[6.123s] byte-compiling /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/unauthorised_listener.py to unauthorised_listener.cpython-312.pyc
+[6.124s] byte-compiling /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/listener_node.py to listener_node.cpython-312.pyc
+[6.124s] byte-compiling /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/__init__.py to __init__.cpython-312.pyc
+[6.124s] running install_data
+[6.125s] creating /home/mohamed/ros2_ws/src/install/my_robot_controller/share/ament_index
+[6.125s] creating /home/mohamed/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[6.125s] creating /home/mohamed/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[6.130s] copying resource/my_robot_controller -> /home/mohamed/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[6.130s] copying package.xml -> /home/mohamed/ros2_ws/src/install/my_robot_controller/share/my_robot_controller
+[6.131s] running install_egg_info
+[6.283s] Copying ../build/my_robot_controller/my_robot_controller.egg-info to /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info
+[6.290s] running install_scripts
+[6.905s] Installing listener script to /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[6.905s] Installing talker script to /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[6.905s] Installing unauthorised_listener script to /home/mohamed/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[6.906s] writing list of installed files to '/home/mohamed/ros2_ws/src/build/my_robot_controller/install.log'
+[7.030s] Invoked command in '/home/mohamed/ros2_ws/src/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/src/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/src/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/mohamed/ros2_ws/src/build/my_robot_controller/build install --record /home/mohamed/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed install_data

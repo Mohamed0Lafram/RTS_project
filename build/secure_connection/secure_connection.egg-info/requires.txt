@@ -1,0 +1,5 @@
+pycryptodome
+setuptools
+
+[test]
+pytest

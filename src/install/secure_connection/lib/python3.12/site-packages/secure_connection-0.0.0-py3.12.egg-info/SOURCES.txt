@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/secure_connection/secure_connection.egg-info/PKG-INFO
+../build/secure_connection/secure_connection.egg-info/SOURCES.txt
+../build/secure_connection/secure_connection.egg-info/dependency_links.txt
+../build/secure_connection/secure_connection.egg-info/requires.txt
+../build/secure_connection/secure_connection.egg-info/top_level.txt
+../build/secure_connection/secure_connection.egg-info/zip-safe
+resource/secure_connection
+secure_connection/__init__.py
+secure_connection/encrypt.py
+secure_connection/generate_key.py
+secure_connection/test.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
