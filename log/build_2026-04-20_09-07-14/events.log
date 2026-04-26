@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (-) JobUnselected: {'identifier': 'node_network'}
+[0.000412] (-) JobUnselected: {'identifier': 'secure_connection'}
+[0.000457] (-) JobUnselected: {'identifier': 'test_latency'}
+[0.000528] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000571] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099294] (-) TimerEvent: {}
+[0.199585] (-) TimerEvent: {}
+[0.299953] (-) TimerEvent: {}
+[0.400260] (-) TimerEvent: {}
+[0.500756] (-) TimerEvent: {}
+[0.608202] (-) TimerEvent: {}
+[0.708910] (-) TimerEvent: {}
+[0.809523] (-) TimerEvent: {}
+[0.909785] (-) TimerEvent: {}
+[1.010073] (-) TimerEvent: {}
+[1.110340] (-) TimerEvent: {}
+[1.210605] (-) TimerEvent: {}
+[1.310857] (-) TimerEvent: {}
+[1.411139] (-) TimerEvent: {}
+[1.511399] (-) TimerEvent: {}
+[1.587906] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/mohamed/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/mohamed/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamed/ros2_ws/src/my_robot_controller', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'GIT_EDITOR': ':', 'SSH_AGENT_PID': '1782', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'TERM_PROGRAM_VERSION': '1.116.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1638', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '4901', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:36911', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/1983,unix/mf00pd:/tmp/.ICE-unix/1983', 'INVOCATION_ID': '53c674b4c1a54d33a4b9461de2cb9918', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_KsIBqy', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_sNOExe', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-0nYeBuBe7pG5/agent.1692', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/my_robot_controller', 'GIT_MERGE_AUTOEDIT': 'no', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.611539] (-) TimerEvent: {}
+[1.711827] (-) TimerEvent: {}
+[1.812099] (-) TimerEvent: {}
+[1.912374] (-) TimerEvent: {}
+[2.012669] (-) TimerEvent: {}
+[2.112990] (-) TimerEvent: {}
+[2.171095] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.213143] (-) TimerEvent: {}
+[2.230841] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[2.231295] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[2.231569] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[2.231897] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[2.232169] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[2.313279] (-) TimerEvent: {}
+[2.360838] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.363755] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.364217] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[2.364485] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[2.364786] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/talker.py -> /home/mohamed/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[2.365250] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[2.382537] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[2.413412] (-) TimerEvent: {}
+[2.463391] (my_robot_controller) StdoutLine: {'line': b'copying /home/mohamed/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/talker.py -> /home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller\n'}
+[2.464688] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/talker.py to talker.cpython-312.pyc\n'}
+[2.466582] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[2.469406] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.513519] (-) TimerEvent: {}
+[2.538978] (my_robot_controller) StdoutLine: {'line': b"removing '/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.539596] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info\n'}
+[2.542045] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[2.613628] (-) TimerEvent: {}
+[2.713956] (-) TimerEvent: {}
+[2.814237] (-) TimerEvent: {}
+[2.914470] (-) TimerEvent: {}
+[2.973136] (my_robot_controller) StdoutLine: {'line': b'Installing listener script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.973503] (my_robot_controller) StdoutLine: {'line': b'Installing listener_encrypt script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.973818] (my_robot_controller) StdoutLine: {'line': b'Installing talker script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.974106] (my_robot_controller) StdoutLine: {'line': b'Installing talker_encrypt script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.974344] (my_robot_controller) StdoutLine: {'line': b'Installing unauthorised_listener script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.975060] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mohamed/ros2_ws/build/my_robot_controller/install.log'\n"}
+[3.014708] (-) TimerEvent: {}
+[3.047862] (my_robot_controller) CommandEnded: {'returncode': 0}
+[3.075383] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[3.076545] (-) EventReactorShutdown: {}

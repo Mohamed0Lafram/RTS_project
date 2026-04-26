@@ -7,6 +7,8 @@
   <maintainer email="mohamedlafram004@gmail.com">mohamed</maintainer>
   <license>TODO: License declaration</license>
 
+  <depend>python3-pycryptodome</depend>
+
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

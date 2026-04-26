@@ -1,0 +1,24 @@
+[5.030s] Invoking command in '/home/mohamed/ros2_ws/src/node_network': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/node_network/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_network build --build-base /home/mohamed/ros2_ws/build/node_network/build install --record /home/mohamed/ros2_ws/build/node_network/install.log --single-version-externally-managed install_data
+[6.596s] running egg_info
+[6.752s] writing ../../build/node_network/node_network.egg-info/PKG-INFO
+[6.753s] writing dependency_links to ../../build/node_network/node_network.egg-info/dependency_links.txt
+[6.754s] writing entry points to ../../build/node_network/node_network.egg-info/entry_points.txt
+[6.755s] writing requirements to ../../build/node_network/node_network.egg-info/requires.txt
+[6.756s] writing top-level names to ../../build/node_network/node_network.egg-info/top_level.txt
+[7.040s] reading manifest file '../../build/node_network/node_network.egg-info/SOURCES.txt'
+[7.041s] writing manifest file '../../build/node_network/node_network.egg-info/SOURCES.txt'
+[7.042s] running build
+[7.043s] running build_py
+[7.047s] running install
+[7.073s] running install_lib
+[7.164s] running install_data
+[7.164s] running install_egg_info
+[7.252s] removing '/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network-0.0.0-py3.12.egg-info' (and everything under it)
+[7.252s] Copying ../../build/node_network/node_network.egg-info to /home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network-0.0.0-py3.12.egg-info
+[7.255s] running install_scripts
+[8.010s] Installing Alpha script to /home/mohamed/ros2_ws/install/node_network/lib/node_network
+[8.013s] Installing Beta script to /home/mohamed/ros2_ws/install/node_network/lib/node_network
+[8.019s] Installing Delta script to /home/mohamed/ros2_ws/install/node_network/lib/node_network
+[8.021s] Installing Gamma script to /home/mohamed/ros2_ws/install/node_network/lib/node_network
+[8.028s] writing list of installed files to '/home/mohamed/ros2_ws/build/node_network/install.log'
+[8.293s] Invoked command in '/home/mohamed/ros2_ws/src/node_network' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/node_network/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_network build --build-base /home/mohamed/ros2_ws/build/node_network/build install --record /home/mohamed/ros2_ws/build/node_network/install.log --single-version-externally-managed install_data

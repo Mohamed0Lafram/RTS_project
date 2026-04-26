@@ -37,6 +37,7 @@ def get_key(topic: str) -> str:
     return os.environ.get(env_key, "")
 
 
+
 class BaseNode(Node):
 
     RING = ["Alpha", "Beta", "Gamma", "Delta"]
@@ -52,7 +53,6 @@ class BaseNode(Node):
         self.my_topic = f"/{name.lower()}/status"
         self.upstream_topic = f"/{upstream.lower()}/status"
 
-        # 🔑 keys from env
         self.my_key = get_key(self.my_topic)
         self.upstream_key = get_key(self.upstream_topic)
 

@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/test_latency/test_latency.egg-info
+writing ../build/test_latency/test_latency.egg-info/PKG-INFO
+writing dependency_links to ../build/test_latency/test_latency.egg-info/dependency_links.txt
+writing requirements to ../build/test_latency/test_latency.egg-info/requires.txt
+writing top-level names to ../build/test_latency/test_latency.egg-info/top_level.txt
+writing manifest file '../build/test_latency/test_latency.egg-info/SOURCES.txt'
+reading manifest file '../build/test_latency/test_latency.egg-info/SOURCES.txt'
+writing manifest file '../build/test_latency/test_latency.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mohamed/ros2_ws/src/build/test_latency/build
+creating /home/mohamed/ros2_ws/src/build/test_latency/build/lib
+creating /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency
+copying test_latency/talker.py -> /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency
+copying test_latency/listener.py -> /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency
+copying test_latency/__init__.py -> /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency
+running install
+running install_lib
+creating /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency
+copying /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency/talker.py -> /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency
+copying /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency/listener.py -> /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency
+copying /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency/__init__.py -> /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency
+byte-compiling /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency/talker.py to talker.cpython-312.pyc
+byte-compiling /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency/listener.py to listener.cpython-312.pyc
+byte-compiling /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/mohamed/ros2_ws/src/install/test_latency/share/ament_index
+creating /home/mohamed/ros2_ws/src/install/test_latency/share/ament_index/resource_index
+creating /home/mohamed/ros2_ws/src/install/test_latency/share/ament_index/resource_index/packages
+copying resource/test_latency -> /home/mohamed/ros2_ws/src/install/test_latency/share/ament_index/resource_index/packages
+copying package.xml -> /home/mohamed/ros2_ws/src/install/test_latency/share/test_latency
+running install_egg_info
+Copying ../build/test_latency/test_latency.egg-info to /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/mohamed/ros2_ws/src/build/test_latency/install.log'

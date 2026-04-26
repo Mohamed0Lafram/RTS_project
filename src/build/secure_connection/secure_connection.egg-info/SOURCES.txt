@@ -4,6 +4,7 @@ setup.py
 ../build/secure_connection/secure_connection.egg-info/PKG-INFO
 ../build/secure_connection/secure_connection.egg-info/SOURCES.txt
 ../build/secure_connection/secure_connection.egg-info/dependency_links.txt
+../build/secure_connection/secure_connection.egg-info/entry_points.txt
 ../build/secure_connection/secure_connection.egg-info/requires.txt
 ../build/secure_connection/secure_connection.egg-info/top_level.txt
 ../build/secure_connection/secure_connection.egg-info/zip-safe

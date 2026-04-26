@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'my_robot_controller_interfaces'],
     zip_safe=True,
     maintainer='mohamed',
     maintainer_email='mohamed@todo.todo',
@@ -26,7 +26,9 @@ setup(
         'console_scripts': [
             "talker = my_robot_controller.talker_node:main",
             "listener = my_robot_controller.listener_node:main",
-            "unauthorised_listener = my_robot_controller.unauthorised_listener:main"
+            "unauthorised_listener = my_robot_controller.unauthorised_listener:main",
+            "talker_encrypt = my_robot_controller.talker:main",
+            "listener_encrypt = my_robot_controller.listener:main"
         ],
     },
 )

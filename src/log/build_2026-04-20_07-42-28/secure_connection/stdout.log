@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/secure_connection/secure_connection.egg-info/PKG-INFO
+writing dependency_links to ../build/secure_connection/secure_connection.egg-info/dependency_links.txt
+writing entry points to ../build/secure_connection/secure_connection.egg-info/entry_points.txt
+writing requirements to ../build/secure_connection/secure_connection.egg-info/requires.txt
+writing top-level names to ../build/secure_connection/secure_connection.egg-info/top_level.txt
+reading manifest file '../build/secure_connection/secure_connection.egg-info/SOURCES.txt'
+writing manifest file '../build/secure_connection/secure_connection.egg-info/SOURCES.txt'
+running build
+running build_py
+copying secure_connection/generate_key.py -> /home/mohamed/ros2_ws/src/build/secure_connection/build/lib/secure_connection
+running install
+running install_lib
+copying /home/mohamed/ros2_ws/src/build/secure_connection/build/lib/secure_connection/generate_key.py -> /home/mohamed/ros2_ws/src/install/secure_connection/lib/python3.12/site-packages/secure_connection
+byte-compiling /home/mohamed/ros2_ws/src/install/secure_connection/lib/python3.12/site-packages/secure_connection/generate_key.py to generate_key.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/mohamed/ros2_ws/src/install/secure_connection/lib/python3.12/site-packages/secure_connection-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/secure_connection/secure_connection.egg-info to /home/mohamed/ros2_ws/src/install/secure_connection/lib/python3.12/site-packages/secure_connection-0.0.0-py3.12.egg-info
+running install_scripts
+Installing generate_key script to /home/mohamed/ros2_ws/src/install/secure_connection/lib/secure_connection
+writing list of installed files to '/home/mohamed/ros2_ws/src/build/secure_connection/install.log'

@@ -59,13 +59,12 @@ class FirstNode(Node):
         return keys
 
 
-# ── main (ONE SHOT EXECUTION) ─────────────────
+
 def main():
     rclpy.init()
 
     node = FirstNode()
 
-    # IMPORTANT: no spin → run once then exit
     node.destroy_node()
     rclpy.shutdown()
 

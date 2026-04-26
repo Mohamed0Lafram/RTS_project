@@ -3,10 +3,10 @@ import os
 import json
 import base64
 import getpass
-from Crypto.Cipher import AES
-from Crypto.Protocol.KDF import PBKDF2
-from Crypto.Hash import SHA256, HMAC
-from Crypto.Random import get_random_bytes
+from Cryptodome.Cipher import AES
+from Cryptodome.Protocol.KDF import PBKDF2
+from Cryptodome.Hash import SHA256, HMAC
+from Cryptodome.Random import get_random_bytes
 
 
 #Constants 

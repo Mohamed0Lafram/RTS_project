@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/test_latency/test_latency.egg-info/PKG-INFO
+writing dependency_links to ../build/test_latency/test_latency.egg-info/dependency_links.txt
+writing requirements to ../build/test_latency/test_latency.egg-info/requires.txt
+writing top-level names to ../build/test_latency/test_latency.egg-info/top_level.txt
+reading manifest file '../build/test_latency/test_latency.egg-info/SOURCES.txt'
+writing manifest file '../build/test_latency/test_latency.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_latency/talker.py -> /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency
+copying test_latency/listener.py -> /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency
+running install
+running install_lib
+copying /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency/talker.py -> /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency
+copying /home/mohamed/ros2_ws/src/build/test_latency/build/lib/test_latency/listener.py -> /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency
+byte-compiling /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency/talker.py to talker.cpython-312.pyc
+byte-compiling /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency/listener.py to listener.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/test_latency/test_latency.egg-info to /home/mohamed/ros2_ws/src/install/test_latency/lib/python3.12/site-packages/test_latency-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/mohamed/ros2_ws/src/build/test_latency/install.log'

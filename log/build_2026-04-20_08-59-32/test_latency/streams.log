@@ -1,0 +1,41 @@
+[4.791s] Invoking command in '/home/mohamed/ros2_ws/src/test_latency': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_latency/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_latency build --build-base /home/mohamed/ros2_ws/build/test_latency/build install --record /home/mohamed/ros2_ws/build/test_latency/install.log --single-version-externally-managed install_data
+[5.916s] running egg_info
+[5.917s] creating ../../build/test_latency/test_latency.egg-info
+[5.974s] writing ../../build/test_latency/test_latency.egg-info/PKG-INFO
+[5.975s] writing dependency_links to ../../build/test_latency/test_latency.egg-info/dependency_links.txt
+[5.975s] writing entry points to ../../build/test_latency/test_latency.egg-info/entry_points.txt
+[5.976s] writing requirements to ../../build/test_latency/test_latency.egg-info/requires.txt
+[5.978s] writing top-level names to ../../build/test_latency/test_latency.egg-info/top_level.txt
+[5.978s] writing manifest file '../../build/test_latency/test_latency.egg-info/SOURCES.txt'
+[6.085s] reading manifest file '../../build/test_latency/test_latency.egg-info/SOURCES.txt'
+[6.088s] writing manifest file '../../build/test_latency/test_latency.egg-info/SOURCES.txt'
+[6.089s] running build
+[6.091s] running build_py
+[6.096s] creating /home/mohamed/ros2_ws/build/test_latency/build
+[6.096s] creating /home/mohamed/ros2_ws/build/test_latency/build/lib
+[6.096s] creating /home/mohamed/ros2_ws/build/test_latency/build/lib/test_latency
+[6.097s] copying test_latency/talker.py -> /home/mohamed/ros2_ws/build/test_latency/build/lib/test_latency
+[6.097s] copying test_latency/listener.py -> /home/mohamed/ros2_ws/build/test_latency/build/lib/test_latency
+[6.097s] copying test_latency/__init__.py -> /home/mohamed/ros2_ws/build/test_latency/build/lib/test_latency
+[6.097s] running install
+[6.110s] running install_lib
+[6.191s] creating /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency
+[6.192s] copying /home/mohamed/ros2_ws/build/test_latency/build/lib/test_latency/talker.py -> /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency
+[6.193s] copying /home/mohamed/ros2_ws/build/test_latency/build/lib/test_latency/listener.py -> /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency
+[6.193s] copying /home/mohamed/ros2_ws/build/test_latency/build/lib/test_latency/__init__.py -> /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency
+[6.195s] byte-compiling /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency/talker.py to talker.cpython-312.pyc
+[6.197s] byte-compiling /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency/listener.py to listener.cpython-312.pyc
+[6.199s] byte-compiling /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency/__init__.py to __init__.cpython-312.pyc
+[6.200s] running install_data
+[6.200s] creating /home/mohamed/ros2_ws/install/test_latency/share/ament_index
+[6.201s] creating /home/mohamed/ros2_ws/install/test_latency/share/ament_index/resource_index
+[6.202s] creating /home/mohamed/ros2_ws/install/test_latency/share/ament_index/resource_index/packages
+[6.203s] copying resource/test_latency -> /home/mohamed/ros2_ws/install/test_latency/share/ament_index/resource_index/packages
+[6.205s] copying package.xml -> /home/mohamed/ros2_ws/install/test_latency/share/test_latency
+[6.206s] running install_egg_info
+[6.304s] Copying ../../build/test_latency/test_latency.egg-info to /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency-0.0.0-py3.12.egg-info
+[6.306s] running install_scripts
+[6.967s] Installing listener script to /home/mohamed/ros2_ws/install/test_latency/lib/test_latency
+[6.968s] Installing talker script to /home/mohamed/ros2_ws/install/test_latency/lib/test_latency
+[6.968s] writing list of installed files to '/home/mohamed/ros2_ws/build/test_latency/install.log'
+[7.054s] Invoked command in '/home/mohamed/ros2_ws/src/test_latency' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_latency/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_latency build --build-base /home/mohamed/ros2_ws/build/test_latency/build install --record /home/mohamed/ros2_ws/build/test_latency/install.log --single-version-externally-managed install_data

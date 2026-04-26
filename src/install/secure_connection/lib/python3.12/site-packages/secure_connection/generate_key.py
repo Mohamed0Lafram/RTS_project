@@ -10,18 +10,16 @@ import os
 class FirstNode(Node):
 
     def __init__(self):
-        super().__init__("first_node")
+        super().__init__("generate_key")
 
-        self.counter_ = 1
-        self.create_timer(1.0, self.timer_callback)
-
-        # get topics at startup
+        # get topics
         self.topics = self.get_ros2_topics()
 
-        # generate keys for each topic
+        # generate keys
         self.topic_keys = self.generate_keys_for_topics()
 
         self.get_logger().info(f"Topics found: {self.topics}")
+        self.get_logger().info("Keys generated successfully")
 
     # ── get ROS2 topics ─────────────────────────
     def get_ros2_topics(self):
@@ -33,8 +31,7 @@ class FirstNode(Node):
                 check=True
             )
 
-            topics = result.stdout.strip().split("\n")
-            return topics
+            return result.stdout.strip().split("\n")
 
         except subprocess.CalledProcessError as e:
             self.get_logger().error(f"Error getting topics: {e}")
@@ -42,33 +39,31 @@ class FirstNode(Node):
 
     # ── generate key ────────────────────────────
     def generate_key(self):
-        key_bytes = get_random_bytes(32)  # 256-bit key
+        key_bytes = get_random_bytes(32)
         return base64.b64encode(key_bytes).decode()
 
     # ── assign key per topic ────────────────────
     def generate_keys_for_topics(self):
         keys = {}
-        for topic in self.topics:
-            keys[topic] = self.generate_key()
 
-            # optional: store in environment
-            os.environ[topic] = keys[topic]
+        for topic in self.topics:
+            key = self.generate_key()
+            keys[topic] = key
+
+            # store in environment with valid variable name
+            env_var = topic.replace("/", "_").upper()
+            os.environ[env_var] = key
+
+            self.get_logger().info(f"Key generated for {topic} (env: {env_var})")
 
         return keys
 
-    # ── timer callback ──────────────────────────
-    def timer_callback(self):
-        self.get_logger().info(f"Node alive | counter={self.counter_}")
-        self.counter_ += 1
 
 
-# ── main entry point ───────────────────────────
 def main():
     rclpy.init()
 
     node = FirstNode()
-
-    rclpy.spin(node)
 
     node.destroy_node()
     rclpy.shutdown()

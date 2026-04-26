@@ -1,3 +1,4 @@
+pycryptodome
 setuptools
 
 [test]

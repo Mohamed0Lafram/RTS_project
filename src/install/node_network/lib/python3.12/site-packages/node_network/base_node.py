@@ -1,90 +1,89 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import threading
-import time
 import random
-import sys
+import os
+
+try:
+    from secure_connection.encrypt import encrypt, decrypt
+except ImportError:
+    # Fallback if secure_connection not available
+    def encrypt(plaintext: str, password: str) -> str:
+        return plaintext
+    
+    def decrypt(ciphertext: str, password: str) -> str:
+        return ciphertext
 
 
-# ── Shared colour codes for pretty terminal output ────────────────────────────
 COLOURS = {
-    "Alpha": "\033[94m",   # blue
-    "Beta":  "\033[92m",   # green
-    "Gamma": "\033[93m",   # yellow
-    "Delta": "\033[91m",   # red
+    "Alpha": "\033[94m",
+    "Beta":  "\033[92m",
+    "Gamma": "\033[93m",
+    "Delta": "\033[91m",
     "RESET": "\033[0m",
 }
 
-def log(name: str, msg: str):
+
+def log(name, msg):
     c = COLOURS.get(name, "")
     r = COLOURS["RESET"]
     print(f"{c}[{name}]{r} {msg}", flush=True)
 
 
-#Base node
-class BaseNode(Node):
-    """
-    Each node:
-      • publishes on  /<name>/status        (peer-to-peer channel)
-      • subscribes to /<upstream>/status    (listens to one neighbour)
-      • publishes on  /mesh/broadcast       (global channel)
-      • subscribes to /mesh/broadcast       (hears every broadcast)
-    """
+def get_key(topic: str) -> str:
+    """Get encryption key for a topic from environment variables."""
+    # Convert topic name to environment variable name
+    env_key = topic.replace("/", "_").upper()
+    return os.environ.get(env_key, "")
 
-    RING = ["Alpha", "Beta", "Gamma", "Delta"]   # clockwise ring
+
+
+class BaseNode(Node):
+
+    RING = ["Alpha", "Beta", "Gamma", "Delta"]
 
     def __init__(self, name: str):
         super().__init__(name.lower() + "_node")
+
         self.name = name
-        idx            = self.RING.index(name)
-        upstream_name  = self.RING[(idx - 1) % len(self.RING)]
 
-        # ── publishers 
-        self.pub_status    = self.create_publisher(
-            String, f"/{name.lower()}/status", 10)
-        self.pub_broadcast = self.create_publisher(
-            String, "/mesh/broadcast", 10)
+        idx = self.RING.index(name)
+        upstream = self.RING[(idx - 1) % len(self.RING)]
 
-        # ── subscriptions
+        self.my_topic = f"/{name.lower()}/status"
+        self.upstream_topic = f"/{upstream.lower()}/status"
+
+        self.my_key = get_key(self.my_topic)
+        self.upstream_key = get_key(self.upstream_topic)
+
+        self.pub = self.create_publisher(String, self.my_topic, 10)
+
         self.create_subscription(
             String,
-            f"/{upstream_name.lower()}/status",
-            self._on_peer_msg,
-            10,
-        )
-        self.create_subscription(
-            String,
-            "/mesh/broadcast",
-            self._on_broadcast,
-            10,
+            self.upstream_topic,
+            self.on_message,
+            10
         )
 
-        # ── periodic publish timer 
-        period = 2.0 + random.uniform(0, 0.5)   # slight jitter per node
-        self.create_timer(period, self._publish_status)
+        period = 2.0 + random.uniform(0, 1)
+        self.create_timer(period, self.send_message)
 
-        log(name, f"online — listening to {upstream_name} on ring")
+        log(name, f"online | encrypted ring node")
 
-    # ── callbacks 
-    def _on_peer_msg(self, msg: String):
-        log(self.name, f"← peer msg  : {msg.data}")
+    # ── receive (decrypt) ─────────────────────
+    def on_message(self, msg: String):
+        try:
+            plain = decrypt(msg.data, self.upstream_key)
+            log(self.name, f"← decrypted: {plain}")
+        except Exception:
+            log(self.name, "❌ decryption failed")
 
-    def _on_broadcast(self, msg: String):
-        # Ignore our own broadcasts to keep the log readable
-        if msg.data.startswith(f"[{self.name}]"):
-            return
-        log(self.name, f"← broadcast : {msg.data}")
+    # ── send (encrypt) ────────────────────────
+    def send_message(self):
+        msg = String()
 
-    # ── periodic publisher 
-    def _publish_status(self):
-        now    = self.get_clock().now().to_msg()
-        status = f"[{self.name}] tick @ {now.sec}.{now.nanosec // 1_000_000:03d}s"
+        plaintext = f"[{self.name}] hello"
+        msg.data = encrypt(plaintext, self.my_key)
 
-        self.pub_status.publish(String(data=status))
-        self.pub_broadcast.publish(String(data=status))
-        log(self.name, f"→ published : {status}")
-
-
-    
-
+        self.pub.publish(msg)
+        log(self.name, f"→ encrypted sent")

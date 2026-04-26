@@ -1,0 +1,28 @@
+[5.286s] Invoking command in '/home/mohamed/ros2_ws/src/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/mohamed/ros2_ws/build/my_robot_controller/build install --record /home/mohamed/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[6.982s] running egg_info
+[7.088s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[7.090s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[7.091s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[7.091s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[7.091s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[7.282s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[7.286s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[7.287s] running build
+[7.287s] running build_py
+[7.289s] copying my_robot_controller/talker.py -> /home/mohamed/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[7.292s] running install
+[7.334s] running install_lib
+[7.467s] copying /home/mohamed/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/talker.py -> /home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[7.469s] byte-compiling /home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/talker.py to talker.cpython-312.pyc
+[7.474s] running install_data
+[7.476s] running install_egg_info
+[7.592s] removing '/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[7.593s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info
+[7.596s] running install_scripts
+[8.362s] Installing listener script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.363s] Installing listener_encrypt script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.363s] Installing talker script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.364s] Installing talker_encrypt script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.365s] Installing unauthorised_listener script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.366s] writing list of installed files to '/home/mohamed/ros2_ws/build/my_robot_controller/install.log'
+[8.611s] Invoked command in '/home/mohamed/ros2_ws/src/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/mohamed/ros2_ws/build/my_robot_controller/build install --record /home/mohamed/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

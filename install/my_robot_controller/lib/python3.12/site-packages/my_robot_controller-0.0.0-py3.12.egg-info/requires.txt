@@ -1,3 +1,4 @@
+my_robot_controller_interfaces
 setuptools
 
 [test]

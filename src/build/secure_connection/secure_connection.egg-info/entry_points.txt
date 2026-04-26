@@ -1,0 +1,2 @@
+[console_scripts]
+generate_key = secure_connection.generate_key:main
