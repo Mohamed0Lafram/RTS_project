@@ -2,14 +2,13 @@
 import os
 import json
 import base64
-import getpass
 from Cryptodome.Cipher import AES
 from Cryptodome.Protocol.KDF import PBKDF2
 from Cryptodome.Hash import SHA256, HMAC
 from Cryptodome.Random import get_random_bytes
 
 
-#Constants 
+ 
 SALT_SIZE     = 32      
 KEY_SIZE      = 32      
 ITERATIONS    = 200_000 
@@ -38,7 +37,7 @@ def encrypt(plaintext: str, password: str) -> str:
     """
     salt  = get_random_bytes(SALT_SIZE)
     key   = derive_key(password, salt)
-    nonce = get_random_bytes(16)          # 128-bit nonce for GCM
+    nonce = get_random_bytes(16)       
 
     cipher = AES.new(key, AES.MODE_GCM, nonce=nonce, mac_len=TAG_SIZE)
     ciphertext, tag = cipher.encrypt_and_digest(plaintext.encode("utf-8"))
@@ -52,7 +51,6 @@ def encrypt(plaintext: str, password: str) -> str:
     return base64.b64encode(json.dumps(payload).encode()).decode()
 
 
-# ── Decrypt ───────────────────────────────────────────────────────────────────
 def decrypt(token: str, password: str) -> str:
     """
     Decrypt a token produced by encrypt().

@@ -1,0 +1,33 @@
+[3.344s] Invoking command in '/home/mohamed/ros2_ws/src/test_connections': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data
+[3.835s] running egg_info
+[3.869s] writing ../../build/test_connections/test_connections.egg-info/PKG-INFO
+[3.869s] writing dependency_links to ../../build/test_connections/test_connections.egg-info/dependency_links.txt
+[3.869s] writing entry points to ../../build/test_connections/test_connections.egg-info/entry_points.txt
+[3.870s] writing requirements to ../../build/test_connections/test_connections.egg-info/requires.txt
+[3.870s] writing top-level names to ../../build/test_connections/test_connections.egg-info/top_level.txt
+[3.941s] reading manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[3.941s] adding license file 'LICENSE'
+[3.943s] writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[3.943s] running build
+[3.943s] running build_py
+[3.944s] copying test_connections/two_nodes_with_security/ghost_listener.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security
+[3.944s] copying test_connections/two_nodes_with_security/ghost_talker.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security
+[3.945s] running install
+[3.953s] running install_lib
+[3.985s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/ghost_listener.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security
+[3.985s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/ghost_talker.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security
+[3.986s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/ghost_listener.py to ghost_listener.cpython-312.pyc
+[3.987s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/ghost_talker.py to ghost_talker.cpython-312.pyc
+[3.988s] running install_data
+[3.988s] running install_egg_info
+[4.037s] removing '/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info' (and everything under it)
+[4.038s] Copying ../../build/test_connections/test_connections.egg-info to /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info
+[4.039s] running install_scripts
+[4.263s] Installing ghost_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.263s] Installing ghost_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.263s] Installing listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.263s] Installing s_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.264s] Installing s_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.264s] Installing talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.265s] writing list of installed files to '/home/mohamed/ros2_ws/build/test_connections/install.log'
+[4.322s] Invoked command in '/home/mohamed/ros2_ws/src/test_connections' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data

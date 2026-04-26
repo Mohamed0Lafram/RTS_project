@@ -1,0 +1,33 @@
+[2.787s] Invoking command in '/home/mohamed/ros2_ws/src/test_connections': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data
+[3.303s] running egg_info
+[3.305s] creating ../../build/test_connections/test_connections.egg-info
+[3.348s] writing ../../build/test_connections/test_connections.egg-info/PKG-INFO
+[3.348s] writing dependency_links to ../../build/test_connections/test_connections.egg-info/dependency_links.txt
+[3.349s] writing requirements to ../../build/test_connections/test_connections.egg-info/requires.txt
+[3.349s] writing top-level names to ../../build/test_connections/test_connections.egg-info/top_level.txt
+[3.349s] writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[3.420s] reading manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[3.420s] adding license file 'LICENSE'
+[3.421s] writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[3.422s] running build
+[3.422s] running build_py
+[3.422s] creating /home/mohamed/ros2_ws/build/test_connections/build
+[3.422s] creating /home/mohamed/ros2_ws/build/test_connections/build/lib
+[3.423s] creating /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections
+[3.423s] copying test_connections/__init__.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections
+[3.423s] running install
+[3.432s] running install_lib
+[3.462s] creating /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections
+[3.462s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/__init__.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections
+[3.463s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/__init__.py to __init__.cpython-312.pyc
+[3.463s] running install_data
+[3.463s] creating /home/mohamed/ros2_ws/install/test_connections/share/ament_index
+[3.463s] creating /home/mohamed/ros2_ws/install/test_connections/share/ament_index/resource_index
+[3.464s] creating /home/mohamed/ros2_ws/install/test_connections/share/ament_index/resource_index/packages
+[3.464s] copying resource/test_connections -> /home/mohamed/ros2_ws/install/test_connections/share/ament_index/resource_index/packages
+[3.464s] copying package.xml -> /home/mohamed/ros2_ws/install/test_connections/share/test_connections
+[3.464s] running install_egg_info
+[3.505s] Copying ../../build/test_connections/test_connections.egg-info to /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info
+[3.506s] running install_scripts
+[3.774s] writing list of installed files to '/home/mohamed/ros2_ws/build/test_connections/install.log'
+[3.848s] Invoked command in '/home/mohamed/ros2_ws/src/test_connections' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data

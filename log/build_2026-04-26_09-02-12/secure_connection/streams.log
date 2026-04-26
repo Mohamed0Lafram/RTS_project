@@ -1,0 +1,21 @@
+[3.326s] Invoking command in '/home/mohamed/ros2_ws/src/secure_connection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/secure_connection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/secure_connection build --build-base /home/mohamed/ros2_ws/build/secure_connection/build install --record /home/mohamed/ros2_ws/build/secure_connection/install.log --single-version-externally-managed install_data
+[3.796s] running egg_info
+[3.859s] writing ../../build/secure_connection/secure_connection.egg-info/PKG-INFO
+[3.859s] writing dependency_links to ../../build/secure_connection/secure_connection.egg-info/dependency_links.txt
+[3.860s] writing entry points to ../../build/secure_connection/secure_connection.egg-info/entry_points.txt
+[3.860s] writing requirements to ../../build/secure_connection/secure_connection.egg-info/requires.txt
+[3.860s] writing top-level names to ../../build/secure_connection/secure_connection.egg-info/top_level.txt
+[3.971s] reading manifest file '../../build/secure_connection/secure_connection.egg-info/SOURCES.txt'
+[3.973s] writing manifest file '../../build/secure_connection/secure_connection.egg-info/SOURCES.txt'
+[3.973s] running build
+[3.973s] running build_py
+[3.974s] running install
+[3.987s] running install_lib
+[4.048s] running install_data
+[4.049s] running install_egg_info
+[4.103s] removing '/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection-0.0.0-py3.12.egg-info' (and everything under it)
+[4.103s] Copying ../../build/secure_connection/secure_connection.egg-info to /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection-0.0.0-py3.12.egg-info
+[4.105s] running install_scripts
+[4.492s] Installing generate_key script to /home/mohamed/ros2_ws/install/secure_connection/lib/secure_connection
+[4.492s] writing list of installed files to '/home/mohamed/ros2_ws/build/secure_connection/install.log'
+[4.630s] Invoked command in '/home/mohamed/ros2_ws/src/secure_connection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/secure_connection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/secure_connection build --build-base /home/mohamed/ros2_ws/build/secure_connection/build install --record /home/mohamed/ros2_ws/build/secure_connection/install.log --single-version-externally-managed install_data

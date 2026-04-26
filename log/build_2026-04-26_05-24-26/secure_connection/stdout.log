@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing secure_connection.egg-info/PKG-INFO
+writing dependency_links to secure_connection.egg-info/dependency_links.txt
+writing entry points to secure_connection.egg-info/entry_points.txt
+writing requirements to secure_connection.egg-info/requires.txt
+writing top-level names to secure_connection.egg-info/top_level.txt
+reading manifest file 'secure_connection.egg-info/SOURCES.txt'
+writing manifest file 'secure_connection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure-connection.egg-link (link to .)
+Installing generate_key script to /home/mohamed/ros2_ws/install/secure_connection/lib/secure_connection
+
+Installed /home/mohamed/ros2_ws/build/secure_connection
+running symlink_data
+symbolically linking /home/mohamed/ros2_ws/build/secure_connection/resource/secure_connection -> /home/mohamed/ros2_ws/install/secure_connection/share/ament_index/resource_index/packages
+symbolically linking /home/mohamed/ros2_ws/build/secure_connection/package.xml -> /home/mohamed/ros2_ws/install/secure_connection/share/secure_connection

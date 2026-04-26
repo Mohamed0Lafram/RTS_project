@@ -1,0 +1,23 @@
+[2.752s] Invoking command in '/home/mohamed/ros2_ws/src/test_connections': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data
+[3.231s] running egg_info
+[3.268s] writing ../../build/test_connections/test_connections.egg-info/PKG-INFO
+[3.269s] writing dependency_links to ../../build/test_connections/test_connections.egg-info/dependency_links.txt
+[3.269s] writing entry points to ../../build/test_connections/test_connections.egg-info/entry_points.txt
+[3.269s] writing requirements to ../../build/test_connections/test_connections.egg-info/requires.txt
+[3.269s] writing top-level names to ../../build/test_connections/test_connections.egg-info/top_level.txt
+[3.347s] reading manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[3.348s] adding license file 'LICENSE'
+[3.349s] writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[3.349s] running build
+[3.349s] running build_py
+[3.349s] running install
+[3.358s] running install_lib
+[3.403s] running install_data
+[3.404s] running install_egg_info
+[3.454s] removing '/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info' (and everything under it)
+[3.455s] Copying ../../build/test_connections/test_connections.egg-info to /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info
+[3.456s] running install_scripts
+[3.694s] Installing listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[3.694s] Installing talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[3.695s] writing list of installed files to '/home/mohamed/ros2_ws/build/test_connections/install.log'
+[3.788s] Invoked command in '/home/mohamed/ros2_ws/src/test_connections' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data
