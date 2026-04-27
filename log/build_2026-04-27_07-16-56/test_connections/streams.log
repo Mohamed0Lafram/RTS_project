@@ -1,0 +1,52 @@
+[3.061s] Invoking command in '/home/mohamed/ros2_ws/src/test_connections': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data
+[4.109s] running egg_info
+[4.160s] writing ../../build/test_connections/test_connections.egg-info/PKG-INFO
+[4.161s] writing dependency_links to ../../build/test_connections/test_connections.egg-info/dependency_links.txt
+[4.162s] writing entry points to ../../build/test_connections/test_connections.egg-info/entry_points.txt
+[4.162s] writing requirements to ../../build/test_connections/test_connections.egg-info/requires.txt
+[4.163s] writing top-level names to ../../build/test_connections/test_connections.egg-info/top_level.txt
+[4.280s] reading manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[4.280s] adding license file 'LICENSE'
+[4.282s] writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[4.282s] running build
+[4.283s] running build_py
+[4.284s] creating /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+[4.284s] copying test_connections/two_nodes_with_security/encrypt_messg/ghost_listener.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+[4.285s] copying test_connections/two_nodes_with_security/encrypt_messg/s_talker.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+[4.285s] copying test_connections/two_nodes_with_security/encrypt_messg/s_listener.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+[4.286s] copying test_connections/two_nodes_with_security/encrypt_messg/__init__.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+[4.286s] copying test_connections/two_nodes_with_security/encrypt_messg/ghost_talker.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+[4.286s] creating /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/secure_topic_access
+[4.287s] copying test_connections/two_nodes_with_security/secure_topic_access/broker.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/secure_topic_access
+[4.287s] copying test_connections/two_nodes_with_security/secure_topic_access/__init__.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/secure_topic_access
+[4.288s] running install
+[4.312s] running install_lib
+[4.449s] creating /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+[4.450s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg/ghost_listener.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+[4.450s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg/s_talker.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+[4.451s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg/s_listener.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+[4.451s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg/__init__.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+[4.452s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg/ghost_talker.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+[4.453s] creating /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/secure_topic_access
+[4.453s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/secure_topic_access/broker.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/secure_topic_access
+[4.454s] copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/secure_topic_access/__init__.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/secure_topic_access
+[4.456s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/ghost_listener.py to ghost_listener.cpython-312.pyc
+[4.457s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/s_talker.py to s_talker.cpython-312.pyc
+[4.459s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/s_listener.py to s_listener.cpython-312.pyc
+[4.460s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/__init__.py to __init__.cpython-312.pyc
+[4.461s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/ghost_talker.py to ghost_talker.cpython-312.pyc
+[4.462s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/secure_topic_access/broker.py to broker.cpython-312.pyc
+[4.467s] byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/secure_topic_access/__init__.py to __init__.cpython-312.pyc
+[4.467s] running install_data
+[4.468s] running install_egg_info
+[4.525s] removing '/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info' (and everything under it)
+[4.525s] Copying ../../build/test_connections/test_connections.egg-info to /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info
+[4.526s] running install_scripts
+[4.831s] Installing ghost_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.832s] Installing ghost_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.832s] Installing listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.833s] Installing s_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.833s] Installing s_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.834s] Installing talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[4.835s] writing list of installed files to '/home/mohamed/ros2_ws/build/test_connections/install.log'
+[4.902s] Invoked command in '/home/mohamed/ros2_ws/src/test_connections' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data

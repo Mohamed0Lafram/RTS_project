@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/test_connections/test_connections.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_connections/test_connections.egg-info/dependency_links.txt
+writing entry points to ../../build/test_connections/test_connections.egg-info/entry_points.txt
+writing requirements to ../../build/test_connections/test_connections.egg-info/requires.txt
+writing top-level names to ../../build/test_connections/test_connections.egg-info/top_level.txt
+reading manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_connections/two_nodes_with_security/encrypt_messg/s_talker.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+copying test_connections/two_nodes_with_security/encrypt_messg/s_listener.py -> /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg
+running install
+running install_lib
+copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg/s_talker.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+copying /home/mohamed/ros2_ws/build/test_connections/build/lib/test_connections/two_nodes_with_security/encrypt_messg/s_listener.py -> /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg
+byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/s_talker.py to s_talker.cpython-312.pyc
+byte-compiling /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/s_listener.py to s_listener.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/test_connections/test_connections.egg-info to /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ghost_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+Installing ghost_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+Installing listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+Installing s_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+Installing s_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+Installing talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+writing list of installed files to '/home/mohamed/ros2_ws/build/test_connections/install.log'

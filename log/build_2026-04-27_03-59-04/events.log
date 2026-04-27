@@ -1,0 +1,730 @@
+[0.000000] (-) TimerEvent: {}
+[0.000651] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001722] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.003069] (node_network) JobQueued: {'identifier': 'node_network', 'dependencies': OrderedDict()}
+[0.004849] (secure_connection) JobQueued: {'identifier': 'secure_connection', 'dependencies': OrderedDict()}
+[0.005309] (test_connections) JobQueued: {'identifier': 'test_connections', 'dependencies': OrderedDict()}
+[0.005604] (test_latency) JobQueued: {'identifier': 'test_latency', 'dependencies': OrderedDict()}
+[0.005863] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.033333] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.073119] (node_network) JobStarted: {'identifier': 'node_network'}
+[0.099433] (-) TimerEvent: {}
+[0.129672] (secure_connection) JobStarted: {'identifier': 'secure_connection'}
+[0.188206] (test_connections) JobStarted: {'identifier': 'test_connections'}
+[0.201141] (-) TimerEvent: {}
+[0.247509] (test_latency) JobStarted: {'identifier': 'test_latency'}
+[0.301282] (-) TimerEvent: {}
+[0.319819] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.324414] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mohamed/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mohamed/ros2_ws/install/custom_interfaces'], 'cwd': '/home/mohamed/ros2_ws/build/custom_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/custom_interfaces', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.401591] (-) TimerEvent: {}
+[0.502650] (-) TimerEvent: {}
+[0.604136] (-) TimerEvent: {}
+[0.705296] (-) TimerEvent: {}
+[0.805833] (-) TimerEvent: {}
+[0.906482] (-) TimerEvent: {}
+[1.013208] (-) TimerEvent: {}
+[1.118697] (-) TimerEvent: {}
+[1.221561] (-) TimerEvent: {}
+[1.324401] (-) TimerEvent: {}
+[1.433501] (-) TimerEvent: {}
+[1.537592] (-) TimerEvent: {}
+[1.638526] (-) TimerEvent: {}
+[1.741388] (-) TimerEvent: {}
+[1.842771] (-) TimerEvent: {}
+[1.945464] (-) TimerEvent: {}
+[2.049523] (-) TimerEvent: {}
+[2.150572] (-) TimerEvent: {}
+[2.251181] (-) TimerEvent: {}
+[2.351797] (-) TimerEvent: {}
+[2.452608] (-) TimerEvent: {}
+[2.553118] (-) TimerEvent: {}
+[2.653612] (-) TimerEvent: {}
+[2.754163] (-) TimerEvent: {}
+[2.855105] (-) TimerEvent: {}
+[2.955762] (-) TimerEvent: {}
+[3.056428] (-) TimerEvent: {}
+[3.156863] (-) TimerEvent: {}
+[3.257514] (-) TimerEvent: {}
+[3.358117] (-) TimerEvent: {}
+[3.458877] (-) TimerEvent: {}
+[3.561317] (-) TimerEvent: {}
+[3.662903] (-) TimerEvent: {}
+[3.764860] (-) TimerEvent: {}
+[3.865878] (-) TimerEvent: {}
+[3.966809] (-) TimerEvent: {}
+[4.067562] (-) TimerEvent: {}
+[4.168126] (-) TimerEvent: {}
+[4.269238] (-) TimerEvent: {}
+[4.369689] (-) TimerEvent: {}
+[4.470122] (-) TimerEvent: {}
+[4.570562] (-) TimerEvent: {}
+[4.670981] (-) TimerEvent: {}
+[4.771605] (-) TimerEvent: {}
+[4.872867] (-) TimerEvent: {}
+[4.975588] (-) TimerEvent: {}
+[5.080483] (-) TimerEvent: {}
+[5.182448] (-) TimerEvent: {}
+[5.283747] (-) TimerEvent: {}
+[5.385336] (-) TimerEvent: {}
+[5.487055] (-) TimerEvent: {}
+[5.588987] (-) TimerEvent: {}
+[5.689535] (-) TimerEvent: {}
+[5.790264] (-) TimerEvent: {}
+[5.890905] (-) TimerEvent: {}
+[5.991591] (-) TimerEvent: {}
+[6.092127] (-) TimerEvent: {}
+[6.192554] (-) TimerEvent: {}
+[6.293130] (-) TimerEvent: {}
+[6.393742] (-) TimerEvent: {}
+[6.494628] (-) TimerEvent: {}
+[6.595699] (-) TimerEvent: {}
+[6.696374] (-) TimerEvent: {}
+[6.798620] (-) TimerEvent: {}
+[6.899783] (-) TimerEvent: {}
+[7.000949] (-) TimerEvent: {}
+[7.101950] (-) TimerEvent: {}
+[7.203418] (-) TimerEvent: {}
+[7.305462] (-) TimerEvent: {}
+[7.407464] (-) TimerEvent: {}
+[7.508277] (-) TimerEvent: {}
+[7.609151] (-) TimerEvent: {}
+[7.711625] (-) TimerEvent: {}
+[7.812467] (-) TimerEvent: {}
+[7.913526] (-) TimerEvent: {}
+[7.965040] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[7.966990] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[7.969524] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.970930] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.974898] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.978475] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.980604] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.983111] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.986620] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.988723] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.990000] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.990956] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.991952] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.993769] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/mohamed/ros2_ws/env/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.996610] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[8.000591] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[8.001889] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[8.007902] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.008845] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.009643] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[8.021583] (-) TimerEvent: {}
+[8.022799] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[8.121920] (-) TimerEvent: {}
+[8.215590] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[8.224512] (-) TimerEvent: {}
+[8.325439] (-) TimerEvent: {}
+[8.426307] (-) TimerEvent: {}
+[8.533622] (-) TimerEvent: {}
+[8.636503] (-) TimerEvent: {}
+[8.737938] (-) TimerEvent: {}
+[8.839965] (-) TimerEvent: {}
+[8.946180] (-) TimerEvent: {}
+[9.052362] (-) TimerEvent: {}
+[9.156722] (-) TimerEvent: {}
+[9.257541] (-) TimerEvent: {}
+[9.364952] (-) TimerEvent: {}
+[9.467924] (-) TimerEvent: {}
+[9.569036] (-) TimerEvent: {}
+[9.670599] (-) TimerEvent: {}
+[9.772286] (-) TimerEvent: {}
+[9.875468] (-) TimerEvent: {}
+[9.978468] (-) TimerEvent: {}
+[10.079057] (-) TimerEvent: {}
+[10.181299] (-) TimerEvent: {}
+[10.281937] (-) TimerEvent: {}
+[10.383425] (-) TimerEvent: {}
+[10.484374] (-) TimerEvent: {}
+[10.588402] (-) TimerEvent: {}
+[10.689690] (-) TimerEvent: {}
+[10.791361] (-) TimerEvent: {}
+[10.892502] (-) TimerEvent: {}
+[10.997923] (-) TimerEvent: {}
+[11.099035] (-) TimerEvent: {}
+[11.200134] (-) TimerEvent: {}
+[11.303800] (-) TimerEvent: {}
+[11.406481] (-) TimerEvent: {}
+[11.508536] (-) TimerEvent: {}
+[11.610365] (-) TimerEvent: {}
+[11.716180] (-) TimerEvent: {}
+[11.827369] (-) TimerEvent: {}
+[11.929278] (-) TimerEvent: {}
+[12.029790] (-) TimerEvent: {}
+[12.134596] (-) TimerEvent: {}
+[12.242473] (-) TimerEvent: {}
+[12.346341] (-) TimerEvent: {}
+[12.449920] (-) TimerEvent: {}
+[12.556006] (-) TimerEvent: {}
+[12.661326] (-) TimerEvent: {}
+[12.762084] (-) TimerEvent: {}
+[12.864603] (-) TimerEvent: {}
+[12.968598] (-) TimerEvent: {}
+[13.069837] (-) TimerEvent: {}
+[13.173932] (-) TimerEvent: {}
+[13.275511] (-) TimerEvent: {}
+[13.379980] (-) TimerEvent: {}
+[13.480789] (test_connections) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_connections', 'build', '--build-base', '/home/mohamed/ros2_ws/build/test_connections/build', 'install', '--record', '/home/mohamed/ros2_ws/build/test_connections/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamed/ros2_ws/src/test_connections', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/test_connections', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.500013] (-) TimerEvent: {}
+[13.603666] (-) TimerEvent: {}
+[13.705609] (-) TimerEvent: {}
+[13.810326] (-) TimerEvent: {}
+[13.914047] (-) TimerEvent: {}
+[14.023679] (-) TimerEvent: {}
+[14.127392] (-) TimerEvent: {}
+[14.222065] (test_latency) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_latency', 'build', '--build-base', '/home/mohamed/ros2_ws/build/test_latency/build', 'install', '--record', '/home/mohamed/ros2_ws/build/test_latency/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamed/ros2_ws/src/test_latency', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/test_latency', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/test_latency/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[14.231356] (-) TimerEvent: {}
+[14.337521] (-) TimerEvent: {}
+[14.441563] (-) TimerEvent: {}
+[14.542753] (-) TimerEvent: {}
+[14.648721] (-) TimerEvent: {}
+[14.760069] (-) TimerEvent: {}
+[14.869586] (-) TimerEvent: {}
+[14.897824] (node_network) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/node_network', 'build', '--build-base', '/home/mohamed/ros2_ws/build/node_network/build', 'install', '--record', '/home/mohamed/ros2_ws/build/node_network/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamed/ros2_ws/src/node_network', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/node_network', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/node_network/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[14.970981] (-) TimerEvent: {}
+[15.075571] (-) TimerEvent: {}
+[15.133157] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/mohamed/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/mohamed/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamed/ros2_ws/src/my_robot_controller', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/my_robot_controller', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[15.177576] (-) TimerEvent: {}
+[15.279945] (-) TimerEvent: {}
+[15.384639] (-) TimerEvent: {}
+[15.486675] (-) TimerEvent: {}
+[15.591873] (-) TimerEvent: {}
+[15.696545] (-) TimerEvent: {}
+[15.707590] (secure_connection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/secure_connection', 'build', '--build-base', '/home/mohamed/ros2_ws/build/secure_connection/build', 'install', '--record', '/home/mohamed/ros2_ws/build/secure_connection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamed/ros2_ws/src/secure_connection', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/secure_connection', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/secure_connection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[15.797686] (-) TimerEvent: {}
+[15.905122] (-) TimerEvent: {}
+[16.009467] (-) TimerEvent: {}
+[16.034058] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.115844] (-) TimerEvent: {}
+[16.216919] (-) TimerEvent: {}
+[16.322024] (-) TimerEvent: {}
+[16.428757] (-) TimerEvent: {}
+[16.530594] (-) TimerEvent: {}
+[16.636492] (-) TimerEvent: {}
+[16.741066] (-) TimerEvent: {}
+[16.781446] (test_connections) StdoutLine: {'line': b'running egg_info\n'}
+[16.846523] (-) TimerEvent: {}
+[16.952758] (-) TimerEvent: {}
+[16.955021] (test_connections) StdoutLine: {'line': b'writing ../../build/test_connections/test_connections.egg-info/PKG-INFO\n'}
+[16.957405] (test_connections) StdoutLine: {'line': b'writing dependency_links to ../../build/test_connections/test_connections.egg-info/dependency_links.txt\n'}
+[16.957955] (test_connections) StdoutLine: {'line': b'writing entry points to ../../build/test_connections/test_connections.egg-info/entry_points.txt\n'}
+[16.958421] (test_connections) StdoutLine: {'line': b'writing requirements to ../../build/test_connections/test_connections.egg-info/requires.txt\n'}
+[16.969750] (test_connections) StdoutLine: {'line': b'writing top-level names to ../../build/test_connections/test_connections.egg-info/top_level.txt\n'}
+[17.052976] (-) TimerEvent: {}
+[17.156504] (-) TimerEvent: {}
+[17.203089] (test_connections) StdoutLine: {'line': b"reading manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'\n"}
+[17.204306] (test_connections) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[17.205511] (test_connections) StdoutLine: {'line': b"writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'\n"}
+[17.205949] (test_connections) StdoutLine: {'line': b'running build\n'}
+[17.206348] (test_connections) StdoutLine: {'line': b'running build_py\n'}
+[17.208117] (test_connections) StdoutLine: {'line': b'running install\n'}
+[17.229669] (test_connections) StdoutLine: {'line': b'running install_lib\n'}
+[17.258333] (-) TimerEvent: {}
+[17.359367] (-) TimerEvent: {}
+[17.454276] (test_connections) StdoutLine: {'line': b'running install_data\n'}
+[17.457000] (test_connections) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.469987] (-) TimerEvent: {}
+[17.583540] (-) TimerEvent: {}
+[17.686089] (-) TimerEvent: {}
+[17.719166] (test_connections) StdoutLine: {'line': b"removing '/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.724510] (test_connections) StdoutLine: {'line': b'Copying ../../build/test_connections/test_connections.egg-info to /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info\n'}
+[17.734559] (test_connections) StdoutLine: {'line': b'running install_scripts\n'}
+[17.786212] (-) TimerEvent: {}
+[17.886909] (-) TimerEvent: {}
+[17.899432] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[17.987317] (-) TimerEvent: {}
+[18.048206] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[18.049129] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[18.050210] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[18.051018] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[18.051359] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[18.087677] (-) TimerEvent: {}
+[18.092880] (node_network) StdoutLine: {'line': b'running egg_info\n'}
+[18.112577] (test_latency) StdoutLine: {'line': b'running egg_info\n'}
+[18.169701] (node_network) StdoutLine: {'line': b'writing ../../build/node_network/node_network.egg-info/PKG-INFO\n'}
+[18.170552] (node_network) StdoutLine: {'line': b'writing dependency_links to ../../build/node_network/node_network.egg-info/dependency_links.txt\n'}
+[18.171358] (node_network) StdoutLine: {'line': b'writing entry points to ../../build/node_network/node_network.egg-info/entry_points.txt\n'}
+[18.172037] (node_network) StdoutLine: {'line': b'writing requirements to ../../build/node_network/node_network.egg-info/requires.txt\n'}
+[18.172335] (node_network) StdoutLine: {'line': b'writing top-level names to ../../build/node_network/node_network.egg-info/top_level.txt\n'}
+[18.187782] (-) TimerEvent: {}
+[18.196836] (test_latency) StdoutLine: {'line': b'writing ../../build/test_latency/test_latency.egg-info/PKG-INFO\n'}
+[18.197510] (test_latency) StdoutLine: {'line': b'writing dependency_links to ../../build/test_latency/test_latency.egg-info/dependency_links.txt\n'}
+[18.198916] (test_latency) StdoutLine: {'line': b'writing entry points to ../../build/test_latency/test_latency.egg-info/entry_points.txt\n'}
+[18.199212] (test_latency) StdoutLine: {'line': b'writing requirements to ../../build/test_latency/test_latency.egg-info/requires.txt\n'}
+[18.201383] (test_latency) StdoutLine: {'line': b'writing top-level names to ../../build/test_latency/test_latency.egg-info/top_level.txt\n'}
+[18.256136] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[18.258872] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[18.260506] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[18.261293] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[18.264328] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.264654] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[18.270328] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[18.287264] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[18.287876] (-) TimerEvent: {}
+[18.308398] (secure_connection) StdoutLine: {'line': b'running egg_info\n'}
+[18.349042] (node_network) StdoutLine: {'line': b"reading manifest file '../../build/node_network/node_network.egg-info/SOURCES.txt'\n"}
+[18.352179] (node_network) StdoutLine: {'line': b"writing manifest file '../../build/node_network/node_network.egg-info/SOURCES.txt'\n"}
+[18.352613] (node_network) StdoutLine: {'line': b'running build\n'}
+[18.352872] (node_network) StdoutLine: {'line': b'running build_py\n'}
+[18.353725] (node_network) StdoutLine: {'line': b'running install\n'}
+[18.368800] (node_network) StdoutLine: {'line': b'running install_lib\n'}
+[18.375379] (test_latency) StdoutLine: {'line': b"reading manifest file '../../build/test_latency/test_latency.egg-info/SOURCES.txt'\n"}
+[18.377438] (test_latency) StdoutLine: {'line': b"writing manifest file '../../build/test_latency/test_latency.egg-info/SOURCES.txt'\n"}
+[18.378040] (test_latency) StdoutLine: {'line': b'running build\n'}
+[18.378687] (test_latency) StdoutLine: {'line': b'running build_py\n'}
+[18.378960] (test_latency) StdoutLine: {'line': b'running install\n'}
+[18.387981] (-) TimerEvent: {}
+[18.391874] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[18.392576] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.393293] (test_latency) StdoutLine: {'line': b'running install_lib\n'}
+[18.399781] (secure_connection) StdoutLine: {'line': b'writing ../../build/secure_connection/secure_connection.egg-info/PKG-INFO\n'}
+[18.400702] (secure_connection) StdoutLine: {'line': b'writing dependency_links to ../../build/secure_connection/secure_connection.egg-info/dependency_links.txt\n'}
+[18.401734] (secure_connection) StdoutLine: {'line': b'writing entry points to ../../build/secure_connection/secure_connection.egg-info/entry_points.txt\n'}
+[18.402054] (secure_connection) StdoutLine: {'line': b'writing requirements to ../../build/secure_connection/secure_connection.egg-info/requires.txt\n'}
+[18.402392] (secure_connection) StdoutLine: {'line': b'writing top-level names to ../../build/secure_connection/secure_connection.egg-info/top_level.txt\n'}
+[18.415577] (test_connections) StdoutLine: {'line': b'Installing ghost_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections\n'}
+[18.417067] (test_connections) StdoutLine: {'line': b'Installing ghost_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections\n'}
+[18.418152] (test_connections) StdoutLine: {'line': b'Installing listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections\n'}
+[18.418523] (test_connections) StdoutLine: {'line': b'Installing s_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections\n'}
+[18.419306] (test_connections) StdoutLine: {'line': b'Installing s_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections\n'}
+[18.419631] (test_connections) StdoutLine: {'line': b'Installing talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections\n'}
+[18.419925] (test_connections) StdoutLine: {'line': b"writing list of installed files to '/home/mohamed/ros2_ws/build/test_connections/install.log'\n"}
+[18.450266] (node_network) StdoutLine: {'line': b'running install_data\n'}
+[18.451008] (node_network) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.467525] (test_latency) StdoutLine: {'line': b'running install_data\n'}
+[18.468045] (test_latency) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.488087] (-) TimerEvent: {}
+[18.498424] (my_robot_controller) StdoutLine: {'line': b"removing '/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[18.500863] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info\n'}
+[18.501750] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[18.508094] (test_connections) CommandEnded: {'returncode': 0}
+[18.542335] (node_network) StdoutLine: {'line': b"removing '/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[18.542897] (node_network) StdoutLine: {'line': b'Copying ../../build/node_network/node_network.egg-info to /home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages/node_network-0.0.0-py3.12.egg-info\n'}
+[18.544081] (node_network) StdoutLine: {'line': b'running install_scripts\n'}
+[18.552752] (test_connections) JobEnded: {'identifier': 'test_connections', 'rc': 0}
+[18.558808] (test_latency) StdoutLine: {'line': b"removing '/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[18.561657] (test_latency) StdoutLine: {'line': b'Copying ../../build/test_latency/test_latency.egg-info to /home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages/test_latency-0.0.0-py3.12.egg-info\n'}
+[18.563892] (test_latency) StdoutLine: {'line': b'running install_scripts\n'}
+[18.591372] (-) TimerEvent: {}
+[18.611166] (secure_connection) StdoutLine: {'line': b"reading manifest file '../../build/secure_connection/secure_connection.egg-info/SOURCES.txt'\n"}
+[18.614748] (secure_connection) StdoutLine: {'line': b"writing manifest file '../../build/secure_connection/secure_connection.egg-info/SOURCES.txt'\n"}
+[18.616255] (secure_connection) StdoutLine: {'line': b'running build\n'}
+[18.617355] (secure_connection) StdoutLine: {'line': b'running build_py\n'}
+[18.627669] (secure_connection) StdoutLine: {'line': b'creating /home/mohamed/ros2_ws/build/secure_connection/build/lib/secure_connection/secure_broker\n'}
+[18.629965] (secure_connection) StdoutLine: {'line': b'copying secure_connection/secure_broker/authetification.py -> /home/mohamed/ros2_ws/build/secure_connection/build/lib/secure_connection/secure_broker\n'}
+[18.631825] (secure_connection) StdoutLine: {'line': b'copying secure_connection/secure_broker/__init__.py -> /home/mohamed/ros2_ws/build/secure_connection/build/lib/secure_connection/secure_broker\n'}
+[18.633044] (secure_connection) StdoutLine: {'line': b'running install\n'}
+[18.674121] (secure_connection) StdoutLine: {'line': b'running install_lib\n'}
+[18.691606] (-) TimerEvent: {}
+[18.796399] (-) TimerEvent: {}
+[18.887543] (secure_connection) StdoutLine: {'line': b'creating /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection/secure_broker\n'}
+[18.890788] (secure_connection) StdoutLine: {'line': b'copying /home/mohamed/ros2_ws/build/secure_connection/build/lib/secure_connection/secure_broker/authetification.py -> /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection/secure_broker\n'}
+[18.891521] (secure_connection) StdoutLine: {'line': b'copying /home/mohamed/ros2_ws/build/secure_connection/build/lib/secure_connection/secure_broker/__init__.py -> /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection/secure_broker\n'}
+[18.898823] (-) TimerEvent: {}
+[18.904099] (secure_connection) StdoutLine: {'line': b'byte-compiling /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection/secure_broker/authetification.py to authetification.cpython-312.pyc\n'}
+[18.905697] (secure_connection) StdoutLine: {'line': b'byte-compiling /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection/secure_broker/__init__.py to __init__.cpython-312.pyc\n'}
+[18.912348] (secure_connection) StdoutLine: {'line': b'running install_data\n'}
+[18.912884] (secure_connection) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.000477] (-) TimerEvent: {}
+[19.102517] (-) TimerEvent: {}
+[19.110365] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /home/mohamed/ros2_ws/env/bin/python3  \n'}
+[19.159390] (secure_connection) StdoutLine: {'line': b"removing '/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[19.160453] (secure_connection) StdoutLine: {'line': b'Copying ../../build/secure_connection/secure_connection.egg-info to /home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages/secure_connection-0.0.0-py3.12.egg-info\n'}
+[19.175297] (secure_connection) StdoutLine: {'line': b'running install_scripts\n'}
+[19.204385] (-) TimerEvent: {}
+[19.305316] (-) TimerEvent: {}
+[19.413511] (-) TimerEvent: {}
+[19.516013] (-) TimerEvent: {}
+[19.620122] (-) TimerEvent: {}
+[19.657633] (my_robot_controller) StdoutLine: {'line': b'Installing listener script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[19.658634] (my_robot_controller) StdoutLine: {'line': b'Installing listener_encrypt script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[19.664923] (my_robot_controller) StdoutLine: {'line': b'Installing talker script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[19.669019] (my_robot_controller) StdoutLine: {'line': b'Installing talker_encrypt script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[19.669747] (my_robot_controller) StdoutLine: {'line': b'Installing unauthorised_listener script to /home/mohamed/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[19.670205] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/mohamed/ros2_ws/build/my_robot_controller/install.log'\n"}
+[19.720401] (-) TimerEvent: {}
+[19.803124] (test_latency) StdoutLine: {'line': b'Installing listener script to /home/mohamed/ros2_ws/install/test_latency/lib/test_latency\n'}
+[19.805739] (test_latency) StdoutLine: {'line': b'Installing talker script to /home/mohamed/ros2_ws/install/test_latency/lib/test_latency\n'}
+[19.806367] (test_latency) StdoutLine: {'line': b"writing list of installed files to '/home/mohamed/ros2_ws/build/test_latency/install.log'\n"}
+[19.820646] (-) TimerEvent: {}
+[19.847373] (my_robot_controller) CommandEnded: {'returncode': 0}
+[19.896963] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[19.904864] (node_network) StdoutLine: {'line': b'Installing Alpha script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[19.906402] (node_network) StdoutLine: {'line': b'Installing Beta script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[19.910556] (node_network) StdoutLine: {'line': b'Installing Delta script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[19.911413] (node_network) StdoutLine: {'line': b'Installing Gamma script to /home/mohamed/ros2_ws/install/node_network/lib/node_network\n'}
+[19.912062] (node_network) StdoutLine: {'line': b"writing list of installed files to '/home/mohamed/ros2_ws/build/node_network/install.log'\n"}
+[19.921413] (-) TimerEvent: {}
+[20.022464] (test_latency) CommandEnded: {'returncode': 0}
+[20.028519] (-) TimerEvent: {}
+[20.072542] (test_latency) JobEnded: {'identifier': 'test_latency', 'rc': 0}
+[20.095635] (node_network) CommandEnded: {'returncode': 0}
+[20.128243] (node_network) JobEnded: {'identifier': 'node_network', 'rc': 0}
+[20.129998] (-) TimerEvent: {}
+[20.230601] (-) TimerEvent: {}
+[20.331536] (-) TimerEvent: {}
+[20.362891] (secure_connection) StdoutLine: {'line': b'Installing generate_key script to /home/mohamed/ros2_ws/install/secure_connection/lib/secure_connection\n'}
+[20.365171] (secure_connection) StdoutLine: {'line': b"writing list of installed files to '/home/mohamed/ros2_ws/build/secure_connection/install.log'\n"}
+[20.431665] (-) TimerEvent: {}
+[20.439932] (secure_connection) CommandEnded: {'returncode': 0}
+[20.456590] (secure_connection) JobEnded: {'identifier': 'secure_connection', 'rc': 0}
+[20.531894] (-) TimerEvent: {}
+[20.632642] (-) TimerEvent: {}
+[20.733458] (-) TimerEvent: {}
+[20.834120] (-) TimerEvent: {}
+[20.934738] (-) TimerEvent: {}
+[21.035465] (-) TimerEvent: {}
+[21.138004] (-) TimerEvent: {}
+[21.238515] (-) TimerEvent: {}
+[21.339032] (-) TimerEvent: {}
+[21.439607] (-) TimerEvent: {}
+[21.539928] (-) TimerEvent: {}
+[21.640492] (-) TimerEvent: {}
+[21.730046] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/mohamed/ros2_ws/env/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[21.747252] (-) TimerEvent: {}
+[21.848432] (-) TimerEvent: {}
+[21.949083] (-) TimerEvent: {}
+[22.023038] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/mohamed/ros2_ws/env/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[22.031319] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[22.049199] (-) TimerEvent: {}
+[22.149713] (-) TimerEvent: {}
+[22.250200] (-) TimerEvent: {}
+[22.251306] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[22.254362] (custom_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[22.255124] (custom_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[22.292363] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[22.294473] (custom_interfaces) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[22.343755] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.350327] (-) TimerEvent: {}
+[22.357275] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[22.450453] (-) TimerEvent: {}
+[22.453876] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[22.454115] (custom_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[22.468644] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[22.477930] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done (22.1s)\n'}
+[22.550575] (-) TimerEvent: {}
+[22.553916] (custom_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[22.586098] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/mohamed/ros2_ws/build/custom_interfaces\n'}
+[22.610988] (custom_interfaces) CommandEnded: {'returncode': 0}
+[22.612516] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[22.614944] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mohamed/ros2_ws/build/custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/mohamed/ros2_ws/build/custom_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/custom_interfaces', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy'}), 'shell': False}
+[22.650722] (-) TimerEvent: {}
+[22.746929] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[22.747632] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[22.751316] (-) TimerEvent: {}
+[22.779844] (custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[22.851514] (-) TimerEvent: {}
+[22.952367] (-) TimerEvent: {}
+[23.052967] (-) TimerEvent: {}
+[23.154915] (-) TimerEvent: {}
+[23.260657] (-) TimerEvent: {}
+[23.363686] (-) TimerEvent: {}
+[23.468439] (-) TimerEvent: {}
+[23.570095] (-) TimerEvent: {}
+[23.671343] (-) TimerEvent: {}
+[23.772012] (-) TimerEvent: {}
+[23.872571] (-) TimerEvent: {}
+[23.973975] (-) TimerEvent: {}
+[23.975668] (custom_interfaces) StdoutLine: {'line': b'[  5%] Built target custom_interfaces__rosidl_generator_type_description\n'}
+[24.038718] (custom_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[24.074177] (-) TimerEvent: {}
+[24.121280] (custom_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[24.136260] (custom_interfaces) StdoutLine: {'line': b'[ 11%] Built target custom_interfaces__rs\n'}
+[24.174276] (-) TimerEvent: {}
+[24.276870] (-) TimerEvent: {}
+[24.291708] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[24.292162] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[24.376971] (-) TimerEvent: {}
+[24.391746] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[24.392567] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[24.394738] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[24.395056] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[24.477253] (-) TimerEvent: {}
+[24.582409] (-) TimerEvent: {}
+[24.682865] (-) TimerEvent: {}
+[24.738965] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[24.748975] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[24.783311] (-) TimerEvent: {}
+[24.876710] (custom_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[24.885331] (-) TimerEvent: {}
+[24.986313] (-) TimerEvent: {}
+[25.090474] (-) TimerEvent: {}
+[25.191103] (-) TimerEvent: {}
+[25.241084] (custom_interfaces) StdoutLine: {'line': b'[ 11%] Built target custom_interfaces__cpp\n'}
+[25.254793] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/secret__type_support.c.o\x1b[0m\n'}
+[25.255316] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/secret__functions.c.o\x1b[0m\n'}
+[25.259705] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/secret__description.c.o\x1b[0m\n'}
+[25.291261] (-) TimerEvent: {}
+[25.391738] (-) TimerEvent: {}
+[25.430409] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[25.491918] (-) TimerEvent: {}
+[25.592654] (-) TimerEvent: {}
+[25.593748] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_generator_c\n'}
+[25.637697] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.640209] (custom_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[25.645475] (custom_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.649013] (custom_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[25.693386] (-) TimerEvent: {}
+[25.796245] (-) TimerEvent: {}
+[25.900142] (-) TimerEvent: {}
+[26.004597] (-) TimerEvent: {}
+[26.105881] (-) TimerEvent: {}
+[26.209444] (-) TimerEvent: {}
+[26.309918] (-) TimerEvent: {}
+[26.410565] (-) TimerEvent: {}
+[26.512615] (-) TimerEvent: {}
+[26.614533] (-) TimerEvent: {}
+[26.674509] (custom_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/secret__type_support.cpp.o\x1b[0m\n'}
+[26.715332] (-) TimerEvent: {}
+[26.786318] (custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/secret__type_support.c.o\x1b[0m\n'}
+[26.801497] (custom_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/secret__type_support.cpp.o\x1b[0m\n'}
+[26.815472] (-) TimerEvent: {}
+[26.825137] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/secret__type_support.cpp.o\x1b[0m\n'}
+[26.869710] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[26.913143] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[26.915580] (-) TimerEvent: {}
+[26.974116] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[26.981596] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[26.997082] (custom_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[26.997480] (custom_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[27.015706] (-) TimerEvent: {}
+[27.116853] (-) TimerEvent: {}
+[27.217299] (-) TimerEvent: {}
+[27.317703] (-) TimerEvent: {}
+[27.419396] (-) TimerEvent: {}
+[27.519881] (-) TimerEvent: {}
+[27.620470] (-) TimerEvent: {}
+[27.721814] (-) TimerEvent: {}
+[27.774519] (custom_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/secret__type_support.cpp.o\x1b[0m\n'}
+[27.809350] (custom_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/secret__type_support_c.cpp.o\x1b[0m\n'}
+[27.821939] (-) TimerEvent: {}
+[27.872492] (custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[27.922115] (-) TimerEvent: {}
+[28.022664] (-) TimerEvent: {}
+[28.112071] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[28.122774] (-) TimerEvent: {}
+[28.223207] (-) TimerEvent: {}
+[28.323639] (-) TimerEvent: {}
+[28.430855] (-) TimerEvent: {}
+[28.532153] (-) TimerEvent: {}
+[28.574193] (custom_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[28.632353] (-) TimerEvent: {}
+[28.735444] (-) TimerEvent: {}
+[28.836443] (-) TimerEvent: {}
+[28.937813] (-) TimerEvent: {}
+[29.021369] (custom_interfaces) StdoutLine: {'line': b'[ 68%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[29.037948] (-) TimerEvent: {}
+[29.138512] (-) TimerEvent: {}
+[29.166353] (custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[29.238663] (-) TimerEvent: {}
+[29.250185] (custom_interfaces) StdoutLine: {'line': b'[ 71%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[29.338976] (-) TimerEvent: {}
+[29.439564] (-) TimerEvent: {}
+[29.540607] (-) TimerEvent: {}
+[29.641496] (-) TimerEvent: {}
+[29.742357] (-) TimerEvent: {}
+[29.803364] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[29.842853] (-) TimerEvent: {}
+[29.943683] (-) TimerEvent: {}
+[30.044695] (-) TimerEvent: {}
+[30.145875] (-) TimerEvent: {}
+[30.247290] (-) TimerEvent: {}
+[30.348011] (-) TimerEvent: {}
+[30.407946] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[30.448338] (-) TimerEvent: {}
+[30.531246] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces\n'}
+[30.548466] (-) TimerEvent: {}
+[30.603303] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[30.648656] (-) TimerEvent: {}
+[30.749244] (-) TimerEvent: {}
+[30.849756] (-) TimerEvent: {}
+[30.950175] (-) TimerEvent: {}
+[31.051835] (-) TimerEvent: {}
+[31.153927] (-) TimerEvent: {}
+[31.254416] (-) TimerEvent: {}
+[31.354818] (-) TimerEvent: {}
+[31.455331] (-) TimerEvent: {}
+[31.555966] (-) TimerEvent: {}
+[31.657104] (-) TimerEvent: {}
+[31.746161] (custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target custom_interfaces__py\n'}
+[31.757389] (-) TimerEvent: {}
+[31.847683] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_secret_s.c.o\x1b[0m\n'}
+[31.857567] (-) TimerEvent: {}
+[31.958395] (-) TimerEvent: {}
+[32.059053] (-) TimerEvent: {}
+[32.159711] (-) TimerEvent: {}
+[32.246171] (custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[32.259864] (-) TimerEvent: {}
+[32.340390] (custom_interfaces) StdoutLine: {'line': b'[ 82%] Built target custom_interfaces__rosidl_generator_py\n'}
+[32.360029] (-) TimerEvent: {}
+[32.383145] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[32.383752] (custom_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[32.460181] (-) TimerEvent: {}
+[32.560691] (-) TimerEvent: {}
+[32.653332] (custom_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[32.660819] (-) TimerEvent: {}
+[32.666033] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[32.752547] (custom_interfaces) StdoutLine: {'line': b'[ 94%] Built target custom_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[32.756106] (custom_interfaces) StdoutLine: {'line': b'[ 94%] Built target custom_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[32.760962] (-) TimerEvent: {}
+[32.808591] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[32.861116] (-) TimerEvent: {}
+[32.961484] (-) TimerEvent: {}
+[33.057291] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[33.061646] (-) TimerEvent: {}
+[33.141005] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces_s__rosidl_typesupport_c\n'}
+[33.161765] (-) TimerEvent: {}
+[33.167960] (custom_interfaces) CommandEnded: {'returncode': 0}
+[33.170191] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[33.196606] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mohamed/ros2_ws/build/custom_interfaces'], 'cwd': '/home/mohamed/ros2_ws/build/custom_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/build/custom_interfaces', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy'}), 'shell': False}
+[33.218757] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.219230] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[33.219836] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/SECRET.json\n'}
+[33.220321] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[33.220727] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[33.221122] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[33.221427] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__struct.h\n'}
+[33.221956] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__type_support.c\n'}
+[33.222442] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__type_support.h\n'}
+[33.222815] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__functions.h\n'}
+[33.223070] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__functions.c\n'}
+[33.223241] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__description.c\n'}
+[33.223486] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/secret.h\n'}
+[33.223811] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.224349] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[33.224906] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[33.225427] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[33.226042] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[33.226971] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[33.227836] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[33.228480] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.228861] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[33.229342] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__rosidl_typesupport_fastrtps_c.h\n'}
+[33.229772] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[33.230211] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.231125] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[33.231607] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[33.232281] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[33.232923] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[33.233276] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__struct.hpp\n'}
+[33.233873] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__type_support.hpp\n'}
+[33.234534] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__builder.hpp\n'}
+[33.235311] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__traits.hpp\n'}
+[33.235788] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/secret.hpp\n'}
+[33.236210] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[33.236620] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[33.237094] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[33.237676] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[33.238417] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.239148] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.239935] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.240858] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[33.241406] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[33.241831] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[33.242284] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[33.242801] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__type_support.c\n'}
+[33.243344] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__rosidl_typesupport_introspection_c.h\n'}
+[33.243692] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.244180] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[33.244664] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.245058] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[33.245365] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[33.245871] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[33.246258] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[33.246684] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[33.247094] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__type_support.cpp\n'}
+[33.247484] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/secret__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.247847] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[33.248257] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[33.248458] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[33.248780] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[33.249085] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[33.249475] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[33.249778] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info\n'}
+[33.250076] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[33.250391] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[33.250690] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[33.251085] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[33.251464] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces\n'}
+[33.251783] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[33.252118] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[33.252514] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[33.252856] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[33.253198] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[33.253562] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[33.253912] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg\n'}
+[33.254404] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_secret_s.c\n'}
+[33.254792] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_secret.py\n'}
+[33.255155] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/__init__.py\n'}
+[33.255535] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py\n'}
+[33.261896] (-) TimerEvent: {}
+[33.362456] (-) TimerEvent: {}
+[33.368800] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces'...\n"}
+[33.369338] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py'...\n"}
+[33.369707] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg'...\n"}
+[33.370059] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/__init__.py'...\n"}
+[33.370414] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_secret.py'...\n"}
+[33.385808] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[33.387026] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.389777] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[33.391082] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.392171] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[33.393587] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[33.394841] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[33.395671] (custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohamed/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[33.396212] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rust_packages/custom_interfaces\n'}
+[33.396705] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust\n'}
+[33.397148] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust/Cargo.toml\n'}
+[33.397677] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust/src\n'}
+[33.398118] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust/src/lib.rs\n'}
+[33.398530] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust/src/msg.rs\n'}
+[33.398957] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust/src/msg\n'}
+[33.399302] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust/src/msg/rmw.rs\n'}
+[33.399694] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/rust/build.rs\n'}
+[33.400576] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/SECRET.idl\n'}
+[33.401382] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/SECRET.msg\n'}
+[33.402245] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[33.402807] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[33.403392] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[33.404069] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[33.404815] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[33.406046] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[33.406946] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[33.407636] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[33.408438] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[33.409351] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[33.409820] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[33.410174] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[33.410728] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[33.411103] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[33.411522] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[33.411922] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[33.412287] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[33.412709] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[33.413107] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[33.413683] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[33.414190] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[33.414666] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[33.415078] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[33.415517] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[33.415990] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[33.416483] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[33.416976] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[33.417423] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[33.417837] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[33.418184] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[33.418544] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.418928] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.419273] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.419636] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.420016] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.420432] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.420816] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[33.421208] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[33.421651] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamed/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[33.423304] (custom_interfaces) CommandEnded: {'returncode': 0}
+[33.463658] (-) TimerEvent: {}
+[33.468862] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[33.472462] (-) EventReactorShutdown: {}

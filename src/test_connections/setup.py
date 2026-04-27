@@ -26,10 +26,10 @@ setup(
         'console_scripts': [
             'talker   = test_connections.two_nodes_no_security.talker:main',
             'listener = test_connections.two_nodes_no_security.listener:main',
-            's_talker   = test_connections.two_nodes_with_security.s_talker:main',
-            's_listener = test_connections.two_nodes_with_security.s_listener:main',
-            'ghost_listener = test_connections.two_nodes_with_security.ghost_listener:main',
-            'ghost_talker = test_connections.two_nodes_with_security.ghost_talker:main'
+            's_talker   = test_connections.two_nodes_with_security.encrypt_messg.s_talker:main',
+            's_listener = test_connections.two_nodes_with_security.encrypt_messg.s_listener:main',
+            'ghost_listener = test_connections.two_nodes_with_security.encrypt_messg.ghost_listener:main',
+            'ghost_talker = test_connections.two_nodes_with_security.encrypt_messg.ghost_talker:main'
         ]
     },
 )

@@ -1,0 +1,28 @@
+[3.142s] Invoking command in '/home/mohamed/ros2_ws/src/test_connections': AMENT_PREFIX_PATH=/home/mohamed/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mohamed/ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mohamed/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data
+[4.364s] running egg_info
+[4.424s] writing ../../build/test_connections/test_connections.egg-info/PKG-INFO
+[4.425s] writing dependency_links to ../../build/test_connections/test_connections.egg-info/dependency_links.txt
+[4.425s] writing entry points to ../../build/test_connections/test_connections.egg-info/entry_points.txt
+[4.426s] writing requirements to ../../build/test_connections/test_connections.egg-info/requires.txt
+[4.426s] writing top-level names to ../../build/test_connections/test_connections.egg-info/top_level.txt
+[4.598s] reading manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[4.599s] adding license file 'LICENSE'
+[4.601s] writing manifest file '../../build/test_connections/test_connections.egg-info/SOURCES.txt'
+[4.601s] running build
+[4.601s] running build_py
+[4.603s] running install
+[4.616s] running install_lib
+[4.720s] running install_data
+[4.720s] copying package.xml -> /home/mohamed/ros2_ws/install/test_connections/share/test_connections
+[4.721s] running install_egg_info
+[4.792s] removing '/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info' (and everything under it)
+[4.793s] Copying ../../build/test_connections/test_connections.egg-info to /home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections-0.0.0-py3.12.egg-info
+[4.795s] running install_scripts
+[5.157s] Installing ghost_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[5.158s] Installing ghost_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[5.158s] Installing listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[5.159s] Installing s_listener script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[5.160s] Installing s_talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[5.160s] Installing talker script to /home/mohamed/ros2_ws/install/test_connections/lib/test_connections
+[5.161s] writing list of installed files to '/home/mohamed/ros2_ws/build/test_connections/install.log'
+[5.226s] Invoked command in '/home/mohamed/ros2_ws/src/test_connections' returned '0': AMENT_PREFIX_PATH=/home/mohamed/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mohamed/ros2_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mohamed/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mohamed/ros2_ws/build/test_connections/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_connections build --build-base /home/mohamed/ros2_ws/build/test_connections/build install --record /home/mohamed/ros2_ws/build/test_connections/install.log --single-version-externally-managed install_data

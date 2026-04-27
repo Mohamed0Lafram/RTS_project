@@ -50,12 +50,11 @@ def encrypt(plaintext: str, password: str) -> str:
     }
     return base64.b64encode(json.dumps(payload).encode()).decode()
 
-
+    
 def decrypt(token: str, password: str) -> str:
     """
     Decrypt a token produced by encrypt().
-
-    Raises ValueError if the password is wrong or the data is tampered.
+    Returns "" if the token is invalid, malformed, or decryption fails.
     """
     try:
         payload    = json.loads(base64.b64decode(token).decode())
@@ -63,16 +62,15 @@ def decrypt(token: str, password: str) -> str:
         nonce      = base64.b64decode(payload["nonce"])
         ciphertext = base64.b64decode(payload["ciphertext"])
         tag        = base64.b64decode(payload["tag"])
-    except (KeyError, ValueError, json.JSONDecodeError) as e:
-        raise ValueError("Invalid token format.") from e
+    except Exception:
+        return ""   # ← malformed token
 
     key    = derive_key(password, salt)
     cipher = AES.new(key, AES.MODE_GCM, nonce=nonce, mac_len=TAG_SIZE)
 
     try:
         plaintext = cipher.decrypt_and_verify(ciphertext, tag)
-    except ValueError as e:
-        raise ValueError("Decryption failed — wrong password or corrupted data.") from e
+    except Exception:
+        return ""   # ← wrong password or tampered data
 
     return plaintext.decode("utf-8")
-

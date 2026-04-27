@@ -1,20 +1,20 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-
+from custom_interfaces.msg import SECRET
 
 class ListenerNode(Node):
     def __init__(self):
         super().__init__('listener')
         self.subscription = self.create_subscription(
-            String,
+            SECRET,
             '/chatter',
             self.listener_callback,
             10,          # QoS queue depth
         )
 
     def listener_callback(self, msg: String):
-        self.get_logger().info(f'Heard: "{msg.data}"')
+        self.get_logger().info(f'Heard: {msg}  id : {msg.id}')
 
 
 def main(args=None):

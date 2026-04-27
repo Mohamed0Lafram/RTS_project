@@ -20,6 +20,7 @@ class FirstNode(Node):
 
         self.get_logger().info(f"Topics found: {self.topics}")
         self.get_logger().info("Keys generated successfully")
+        self.generate_authorised_talkers()
 
     # ── get ROS2 topics ─────────────────────────
     def get_ros2_topics(self):
@@ -41,8 +42,12 @@ class FirstNode(Node):
     def generate_key(self):
         key_bytes = get_random_bytes(32)
         return base64.b64encode(key_bytes).decode()
+    
+    def generate_authorised_talkers(self):
+        key_bytes = get_random_bytes(16)
+        os.environ['talker'] = base64.b64encode(key_bytes).decode() 
 
-    # ── assign key per topic ────────────────────
+
     def generate_keys_for_topics(self):
         keys = {}
 

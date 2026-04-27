@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000417] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000519] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.013116] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.014003] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mohamed/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mohamed/ros2_ws/src/custom_interfaces/install/custom_interfaces'], 'cwd': '/home/mohamed/ros2_ws/src/custom_interfaces/build/custom_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'KDE_FULL_SESSION': 'true', 'USER': 'mohamed', 'PAM_KWALLET5_LOGIN': '/run/user/1000/kwallet5.socket', 'QT_SCREEN_SCALE_FACTORS': 'eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohamed', 'CHROME_DESKTOP': 'code.desktop', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/home/mohamed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.117.0', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/home/mohamed/.gtkrc:/home/mohamed/.config/gtkrc', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](env) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1716', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '5131', 'BUNDLED_DEBUGPY_PATH': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/mohamed/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mohamed', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', 'JOURNAL_STREAM': '9:37144', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-krunner.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'FC_FONTATIONS': '1', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/home/mohamed/.gtkrc-2.0:/home/mohamed/.config/gtkrc-2.0', 'PATH': '/home/mohamed/ros2_ws/env/bin:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mohamed/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/mf00pd:@/tmp/.ICE-unix/2083,unix/mf00pd:/tmp/.ICE-unix/2083', 'INVOCATION_ID': '52e765c0ba134c43957cd11f62383036', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'breeze_cursors', 'GDK_BACKEND': 'x11', 'ICEAUTHORITY': '/run/user/1000/iceauth_GkiujM', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-098b2f5e60a9b891.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'PYTHONSTARTUP': '/home/mohamed/.config/Code/User/workspaceStorage/aaa14fc1800ac693e2011995cd7e2de1/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(env)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/tmp/xauth_Lkfffk', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-91f265ca04.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-WVGeNt0tf77h/agent.1776', 'AMENT_PREFIX_PATH': '/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'VIRTUAL_ENV': '/home/mohamed/ros2_ws/env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'PWD': '/home/mohamed/ros2_ws/src/custom_interfaces/build/custom_interfaces', 'XDG_CONFIG_DIRS': '/home/mohamed/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/share/gnome:/home/mohamed/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/mohamed/ros2_ws/build/secure_connection:/home/mohamed/ros2_ws/env/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/test_latency/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/secure_connection/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/node_network/lib/python3.12/site-packages:/home/mohamed/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'KDE_SESSION_UID': '1000', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.056647] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099231] (-) TimerEvent: {}
+[0.199678] (-) TimerEvent: {}
+[0.300179] (-) TimerEvent: {}
+[0.400535] (-) TimerEvent: {}
+[0.500996] (-) TimerEvent: {}
+[0.601496] (-) TimerEvent: {}
+[0.690871] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.701639] (-) TimerEvent: {}
+[0.780884] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.801787] (-) TimerEvent: {}
+[0.805136] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.845732] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.876804] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901940] (-) TimerEvent: {}
+[1.002359] (-) TimerEvent: {}
+[1.016150] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.054621] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.102501] (-) TimerEvent: {}
+[1.203086] (-) TimerEvent: {}
+[1.303986] (-) TimerEvent: {}
+[1.404658] (-) TimerEvent: {}
+[1.505402] (-) TimerEvent: {}
+[1.605770] (-) TimerEvent: {}
+[1.706148] (-) TimerEvent: {}
+[1.806472] (-) TimerEvent: {}
+[1.878559] (custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[1.878937] (custom_interfaces) StderrLine: {'line': b'  execute_process(/home/mohamed/ros2_ws/env/bin/python3 -m rosidl_adapter\n'}
+[1.879152] (custom_interfaces) StderrLine: {'line': b'  --package-name custom_interfaces --arguments-file\n'}
+[1.879450] (custom_interfaces) StderrLine: {'line': b'  /home/mohamed/ros2_ws/src/custom_interfaces/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json\n'}
+[1.879650] (custom_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[1.879912] (custom_interfaces) StderrLine: {'line': b'  /home/mohamed/ros2_ws/src/custom_interfaces/build/custom_interfaces/rosidl_adapter/custom_interfaces\n'}
+[1.880110] (custom_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.880392] (custom_interfaces) StderrLine: {'line': b'  /home/mohamed/ros2_ws/src/custom_interfaces/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)\n'}
+[1.880722] (custom_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.881047] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.881320] (custom_interfaces) StderrLine: {'line': b"  Error processing 'id string' of 'custom_interfaces/SECRET': ''id' is an\n"}
+[1.881606] (custom_interfaces) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[1.881801] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.881992] (custom_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.882206] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.882402] (custom_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[1.882590] (custom_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[1.882777] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.882975] (custom_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.883175] (custom_interfaces) StderrLine: {'line': b'               ^^^^^^\n'}
+[1.883380] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.883585] (custom_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.883772] (custom_interfaces) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[1.883957] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.884218] (custom_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.884404] (custom_interfaces) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[1.884589] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.884774] (custom_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.884959] (custom_interfaces) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.885143] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string\n'}
+[1.885385] (custom_interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.885570] (custom_interfaces) StderrLine: {'line': b'      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.885754] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 278, in __init__\n'}
+[1.885939] (custom_interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.886119] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__\n'}
+[1.886330] (custom_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.886513] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.886697] (custom_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'id' is an invalid message name.\n"}
+[1.886884] (custom_interfaces) StderrLine: {'line': b"  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.887066] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.887309] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.887499] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[1.887701] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[1.887900] (custom_interfaces) StderrLine: {'line': b'\n'}
+[1.888083] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.888291] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.895486] (custom_interfaces) CommandEnded: {'returncode': 1}
+[1.906634] (-) TimerEvent: {}
+[1.945776] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[1.957262] (-) EventReactorShutdown: {}

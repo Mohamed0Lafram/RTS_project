@@ -1,0 +1,5 @@
+  File "/home/mohamed/ros2_ws/install/test_connections/lib/python3.12/site-packages/test_connections/two_nodes_with_security/encrypt_messg/s_listener.py", line 23
+    raw = decrypt(messg., self.key)
+                        ^
+SyntaxError: invalid syntax
+

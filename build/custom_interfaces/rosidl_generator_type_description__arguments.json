@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_interfaces",
+  "output_dir": "/home/mohamed/ros2_ws/build/custom_interfaces/rosidl_generator_type_description/custom_interfaces",
+  "idl_tuples": [
+    "/home/mohamed/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/SECRET.idl"
+  ]
+}

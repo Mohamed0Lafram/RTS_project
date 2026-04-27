@@ -1,0 +1,27 @@
+[0.031s] Invoking command in '/home/mohamed/ros2_ws/src/custom_interfaces/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(env) /usr/bin/cmake /home/mohamed/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/mohamed/ros2_ws/src/custom_interfaces/install/custom_interfaces
+[0.355s] -- The C compiler identification is GNU 13.3.0
+[0.782s] -- The CXX compiler identification is GNU 13.3.0
+[0.877s] -- Detecting C compiler ABI info
+[1.309s] -- Detecting C compiler ABI info - done
+[1.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.393s] -- Detecting C compile features
+[1.397s] -- Detecting C compile features - done
+[1.446s] -- Detecting CXX compiler ABI info
+[1.801s] -- Detecting CXX compiler ABI info - done
+[1.854s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.856s] -- Detecting CXX compile features
+[1.861s] -- Detecting CXX compile features - done
+[1.881s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.384s] -- Found Python3: /home/mohamed/ros2_ws/env/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.657s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.990s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.998s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):
+[2.998s]   rosidl_generate_interfaces() called without any interface files
+[2.998s] Call Stack (most recent call first):
+[2.998s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[2.998s] 
+[2.998s] [0m
+[2.999s] -- Configuring incomplete, errors occurred!
+[3.011s] Invoked command in '/home/mohamed/ros2_ws/src/custom_interfaces/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/test_latency:/home/mohamed/ros2_ws/install/secure_connection:/home/mohamed/ros2_ws/install/node_network:/home/mohamed/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(env) /usr/bin/cmake /home/mohamed/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/mohamed/ros2_ws/src/custom_interfaces/install/custom_interfaces
