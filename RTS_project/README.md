@@ -36,76 +36,39 @@ RTS_project/
 
 ## Démarrage rapide
 
-### 1. Prérequis
-
-```bash
-sudo apt install python3-cryptography
-```
-
-### 2. Générer les clés
-
-```bash
-cd RTS_project
-source /opt/ros/humble/setup.bash
+1. Prérequis
+bashsudo apt install python3-cryptography
+2. Générer les clés
+bashcd RTS_project
+source /opt/ros/jazzy/setup.bash
 colcon build
 source install/setup.bash
-
 ros2 run secure_connection generate_key
-```
-
-### 3. Lancer les nœuds sécurisés
-
-**Terminal 1 – IDS**
-```bash
-ros2 run secure_connection ids_node \
+3. Lancer les nœuds sécurisés
+Terminal 1 – IDS
+bashros2 run secure_connection ids_node \
   --ros-args -p hmac_secret:=my_secret \
              -p aes_key_hex:=<hex_from_topic_keys.json> \
              -p public_key_path:=src/secure_connection/secure_connection/certificates/public.pem
-```
-
-**Terminal 2 – Talker sécurisé**
-```bash
-ros2 run my_robot_controller talker_secure \
-  --ros-args -p aes_key_hex:=<hex> \
+Terminal 2 – Talker sécurisé
+bashros2 run my_robot_controller talker_secure \
+  --ros-args -p aes_key_hex:=<hex_from_topic_keys.json> \
              -p hmac_secret:=my_secret \
              -p private_key_path:=src/secure_connection/secure_connection/certificates/private.pem
-```
-
-**Terminal 3 – Listener sécurisé**
-```bash
-ros2 run my_robot_controller listener_secure \
-  --ros-args -p aes_key_hex:=<hex> \
+Terminal 3 – Listener sécurisé
+bashros2 run my_robot_controller listener_secure \
+  --ros-args -p aes_key_hex:=<hex_from_topic_keys.json> \
              -p hmac_secret:=my_secret \
              -p public_key_path:=src/secure_connection/secure_connection/certificates/public.pem
-```
-
-### 4. Tester les primitives (sans ROS2)
-
-```bash
-python3 src/secure_connection/secure_connection/test.py
-```
-
-### 5. Simuler une attaque
-
-```bash
+4. Tester les primitives (sans ROS 2)
+bashpython3 src/secure_connection/secure_connection/test.py
+5. Simuler une attaque
+bash# Mode normal
 ros2 run my_robot_controller attacker_node
-# Mode flood :
+
+# Mode flood
 ros2 run my_robot_controller attacker_node --ros-args -p flood_mode:=true
-```
 
----
-
-## Alertes IDS
-
-Les alertes sont publiées sur `/security_alert` en JSON :
-
-```json
-{"alert": "FLOODING", "detail": "...", "time": 1234567890.0}
-```
-
-Types d'alertes : `FLOODING`, `AUTH_FAILURE`, `SIGNATURE_INVALID`, `DECRYPT_FAILURE`, `MALFORMED_PAYLOAD`.
-
----
 
 ## Membres de l'équipe
 
