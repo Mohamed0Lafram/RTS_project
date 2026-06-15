@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: secure-connection
+Version: 0.0.1
+Summary: Security primitives: AES-GCM, RSA, HMAC, key management, IDS
+Maintainer: Team Secure Swarm
+Maintainer-email: team@secureSWARM.com
+License: Apache-2.0

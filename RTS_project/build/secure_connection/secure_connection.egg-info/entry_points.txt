@@ -1,0 +1,4 @@
+[console_scripts]
+generate_key = secure_connection.generate_key:main
+ids_node = secure_connection.ids_node:main
+test_security = secure_connection.test:main

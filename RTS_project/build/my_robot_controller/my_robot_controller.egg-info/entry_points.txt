@@ -1,0 +1,7 @@
+[console_scripts]
+attacker_node = my_robot_controller.attacker_node:main
+first_node = my_robot_controller.first_node:main
+listener_secure = my_robot_controller.listener_secure:main
+listener_unsecure = my_robot_controller.listener_unsecure:main
+talker_secure = my_robot_controller.talker_secure:main
+talker_unsecure = my_robot_controller.talker_unsecure:main

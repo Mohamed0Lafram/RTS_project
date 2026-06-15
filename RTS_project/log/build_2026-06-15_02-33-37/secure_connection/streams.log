@@ -1,0 +1,54 @@
+[1.801s] Invoking command in '/home/amina/Downloads/RTS_project/src/secure_connection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amina/Downloads/RTS_project/build/secure_connection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/secure_connection build --build-base /home/amina/Downloads/RTS_project/build/secure_connection/build install --record /home/amina/Downloads/RTS_project/build/secure_connection/install.log --single-version-externally-managed install_data
+[2.277s] running egg_info
+[2.278s] creating ../../build/secure_connection/secure_connection.egg-info
+[2.312s] writing ../../build/secure_connection/secure_connection.egg-info/PKG-INFO
+[2.312s] writing dependency_links to ../../build/secure_connection/secure_connection.egg-info/dependency_links.txt
+[2.313s] writing entry points to ../../build/secure_connection/secure_connection.egg-info/entry_points.txt
+[2.313s] writing requirements to ../../build/secure_connection/secure_connection.egg-info/requires.txt
+[2.313s] writing top-level names to ../../build/secure_connection/secure_connection.egg-info/top_level.txt
+[2.313s] writing manifest file '../../build/secure_connection/secure_connection.egg-info/SOURCES.txt'
+[2.386s] reading manifest file '../../build/secure_connection/secure_connection.egg-info/SOURCES.txt'
+[2.387s] writing manifest file '../../build/secure_connection/secure_connection.egg-info/SOURCES.txt'
+[2.388s] running build
+[2.388s] running build_py
+[2.388s] creating /home/amina/Downloads/RTS_project/build/secure_connection/build
+[2.389s] creating /home/amina/Downloads/RTS_project/build/secure_connection/build/lib
+[2.389s] creating /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.389s] copying secure_connection/authentication.py -> /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.389s] copying secure_connection/__init__.py -> /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.389s] copying secure_connection/encrypt.py -> /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.389s] copying secure_connection/test.py -> /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.390s] copying secure_connection/generate_key.py -> /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.390s] copying secure_connection/ids_node.py -> /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.390s] copying secure_connection/integrity.py -> /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection
+[2.390s] running install
+[2.400s] running install_lib
+[2.437s] creating /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.438s] copying /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection/authentication.py -> /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.438s] copying /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection/__init__.py -> /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.439s] copying /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection/encrypt.py -> /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.439s] copying /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection/test.py -> /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.439s] copying /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection/generate_key.py -> /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.439s] copying /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection/ids_node.py -> /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.439s] copying /home/amina/Downloads/RTS_project/build/secure_connection/build/lib/secure_connection/integrity.py -> /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection
+[2.440s] byte-compiling /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection/authentication.py to authentication.cpython-312.pyc
+[2.440s] byte-compiling /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection/__init__.py to __init__.cpython-312.pyc
+[2.440s] byte-compiling /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection/encrypt.py to encrypt.cpython-312.pyc
+[2.441s] byte-compiling /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection/test.py to test.cpython-312.pyc
+[2.443s] byte-compiling /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection/generate_key.py to generate_key.cpython-312.pyc
+[2.444s] byte-compiling /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection/ids_node.py to ids_node.cpython-312.pyc
+[2.446s] byte-compiling /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection/integrity.py to integrity.cpython-312.pyc
+[2.447s] running install_data
+[2.447s] creating /home/amina/Downloads/RTS_project/install/secure_connection/share/ament_index
+[2.447s] creating /home/amina/Downloads/RTS_project/install/secure_connection/share/ament_index/resource_index
+[2.447s] creating /home/amina/Downloads/RTS_project/install/secure_connection/share/ament_index/resource_index/packages
+[2.448s] copying resource/secure_connection -> /home/amina/Downloads/RTS_project/install/secure_connection/share/ament_index/resource_index/packages
+[2.448s] copying package.xml -> /home/amina/Downloads/RTS_project/install/secure_connection/share/secure_connection
+[2.448s] running install_egg_info
+[2.485s] Copying ../../build/secure_connection/secure_connection.egg-info to /home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages/secure_connection-0.0.1-py3.12.egg-info
+[2.486s] running install_scripts
+[2.714s] Installing generate_key script to /home/amina/Downloads/RTS_project/install/secure_connection/lib/secure_connection
+[2.714s] Installing ids_node script to /home/amina/Downloads/RTS_project/install/secure_connection/lib/secure_connection
+[2.715s] Installing test_security script to /home/amina/Downloads/RTS_project/install/secure_connection/lib/secure_connection
+[2.715s] writing list of installed files to '/home/amina/Downloads/RTS_project/build/secure_connection/install.log'
+[2.761s] Invoked command in '/home/amina/Downloads/RTS_project/src/secure_connection' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amina/Downloads/RTS_project/build/secure_connection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amina/Downloads/RTS_project/install/secure_connection/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/secure_connection build --build-base /home/amina/Downloads/RTS_project/build/secure_connection/build install --record /home/amina/Downloads/RTS_project/build/secure_connection/install.log --single-version-externally-managed install_data
